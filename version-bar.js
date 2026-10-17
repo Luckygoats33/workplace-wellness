@@ -15,7 +15,8 @@
     { dir: 'v4', label: 'v4 — Immersive' },
     { dir: 'v5', label: 'v5 — Cinematic' },
     { dir: 'v6', label: 'v6 — Human Experience' },
-    { dir: 'v7', label: 'v7 — Platform' }
+    { dir: 'v7', label: 'v7 — Platform' },
+    { dir: 'v8', label: 'v8 — Editorial Premium' }
   ];
 
   var SCHEMES = {
