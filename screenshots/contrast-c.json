@@ -1,0 +1,339 @@
+{
+ "lowest_text_ratio": {
+  "fg": "#505766",
+  "bg": "#F5EEF3",
+  "ratio": 6.36,
+  "large": false,
+  "need": 4.5,
+  "count": 4,
+  "example": "Pick one. The breathing ring a <p.breath__help>"
+ },
+ "text_pairs_unique": 27,
+ "text_failures": [],
+ "text_table": [
+  {
+   "fg": "#505766",
+   "bg": "#F5EEF3",
+   "ratio": 6.36,
+   "large": false,
+   "need": 4.5,
+   "count": 4,
+   "example": "Pick one. The breathing ring a <p.breath__help>"
+  },
+  {
+   "fg": "#505766",
+   "bg": "#F3F0EB",
+   "ratio": 6.38,
+   "large": false,
+   "need": 4.5,
+   "count": 10,
+   "example": "Two facilitated sessions, a re <p.>"
+  },
+  {
+   "fg": "#A31D3A",
+   "bg": "#FDF0F2",
+   "ratio": 6.77,
+   "large": false,
+   "need": 4.5,
+   "count": 6,
+   "example": "Please check a few things <h3.>"
+  },
+  {
+   "fg": "#505766",
+   "bg": "#FBFAF8",
+   "ratio": 6.95,
+   "large": false,
+   "need": 4.5,
+   "count": 41,
+   "example": "by SWG <span.brand__by>"
+  },
+  {
+   "fg": "#505766",
+   "bg": "#FFFFFF",
+   "ratio": 7.25,
+   "large": false,
+   "need": 4.5,
+   "count": 17,
+   "example": "Follow along with the group. <p.>"
+  },
+  {
+   "fg": "#A31D3A",
+   "bg": "#FFFFFF",
+   "ratio": 7.52,
+   "large": false,
+   "need": 4.5,
+   "count": 10,
+   "example": "* <span.req>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F5EEF3",
+   "ratio": 9.53,
+   "large": false,
+   "need": 4.5,
+   "count": 2,
+   "example": "Participation is a choice <p.eyebrow>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F5EEF3",
+   "ratio": 9.53,
+   "large": true,
+   "need": 3,
+   "count": 2,
+   "example": "Your call. <em.>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F3F0EB",
+   "ratio": 9.56,
+   "large": false,
+   "need": 4.5,
+   "count": 3,
+   "example": "Core program <p.format__tag>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F3F0EB",
+   "ratio": 9.56,
+   "large": true,
+   "need": 3,
+   "count": 2,
+   "example": "One room. <em.>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FBFAF8",
+   "ratio": 10.42,
+   "large": false,
+   "need": 4.5,
+   "count": 15,
+   "example": "Workplace Wellness by SWG <p.eyebrow>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FBFAF8",
+   "ratio": 10.42,
+   "large": true,
+   "need": 3,
+   "count": 5,
+   "example": "everyone <em.>"
+  },
+  {
+   "fg": "#FFFFFF",
+   "bg": "#5A2D52",
+   "ratio": 10.87,
+   "large": false,
+   "need": 4.5,
+   "count": 11,
+   "example": "Skip to main content <a.skip-link>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FFFFFF",
+   "ratio": 10.87,
+   "large": false,
+   "need": 4.5,
+   "count": 8,
+   "example": "Extended <p.format__tag>"
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FFFFFF",
+   "ratio": 10.87,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "Nothing was sent. <em.>"
+  },
+  {
+   "fg": "#3F1D39",
+   "bg": "#F5EEF3",
+   "ratio": 12.73,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Breathe in <p.breath__cue>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F5EEF3",
+   "ratio": 14.2,
+   "large": false,
+   "need": 4.5,
+   "count": 4,
+   "example": "Choose your pace <h2.breath__title>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F5EEF3",
+   "ratio": 14.2,
+   "large": true,
+   "need": 3,
+   "count": 2,
+   "example": "Your pace. <h2.>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F3F0EB",
+   "ratio": 14.26,
+   "large": false,
+   "need": 4.5,
+   "count": 12,
+   "example": "Design preview. Content, names <aside.preview-bar>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F3F0EB",
+   "ratio": 14.26,
+   "large": true,
+   "need": 3,
+   "count": 3,
+   "example": "Half-day <h3.>"
+  },
+  {
+   "fg": "#3F1D39",
+   "bg": "#FFFFFF",
+   "ratio": 14.52,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Breathe in <p.choice__cue>"
+  },
+  {
+   "fg": "#FFFFFF",
+   "bg": "#3F1D39",
+   "ratio": 14.52,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Plan your team experience <button.btn>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FBFAF8",
+   "ratio": 15.53,
+   "large": false,
+   "need": 4.5,
+   "count": 35,
+   "example": "Workplace Wellness <span.brand__name>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FBFAF8",
+   "ratio": 15.53,
+   "large": true,
+   "need": 3,
+   "count": 6,
+   "example": "A wellness session <h1.hero__title>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FFFFFF",
+   "ratio": 16.21,
+   "large": false,
+   "need": 4.5,
+   "count": 31,
+   "example": "See what people do <a.btn>"
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FFFFFF",
+   "ratio": 16.21,
+   "large": true,
+   "need": 3,
+   "count": 4,
+   "example": "Full-day <h3.>"
+  },
+  {
+   "fg": "#FFFFFF",
+   "bg": "#1B2030",
+   "ratio": 16.21,
+   "large": false,
+   "need": 4.5,
+   "count": 2,
+   "example": "Start with step one <a.btn>"
+  }
+ ],
+ "nontext": [
+  {
+   "pair": "focus ring (--plum) on --surface",
+   "a": "#5A2D52",
+   "b": "#FFFFFF",
+   "ratio": 10.87,
+   "need": 3
+  },
+  {
+   "pair": "focus ring (--plum) on --bg",
+   "a": "#5A2D52",
+   "b": "#FBFAF8",
+   "ratio": 10.42,
+   "need": 3
+  },
+  {
+   "pair": "focus ring (--plum) on --stone",
+   "a": "#5A2D52",
+   "b": "#F3F0EB",
+   "ratio": 9.56,
+   "need": 3
+  },
+  {
+   "pair": "focus ring (--plum) on --tint",
+   "a": "#5A2D52",
+   "b": "#F5EEF3",
+   "ratio": 9.53,
+   "need": 3
+  },
+  {
+   "pair": "input border (--edge) on white field",
+   "a": "#7D7885",
+   "b": "#FFFFFF",
+   "ratio": 4.29,
+   "need": 3
+  },
+  {
+   "pair": "segmented option border (--edge) on white",
+   "a": "#7D7885",
+   "b": "#FFFFFF",
+   "ratio": 4.29,
+   "need": 3
+  },
+  {
+   "pair": "segmented option border (--edge) on tint panel",
+   "a": "#7D7885",
+   "b": "#F5EEF3",
+   "ratio": 3.76,
+   "need": 3
+  },
+  {
+   "pair": "error border/text (--err) on white",
+   "a": "#A31D3A",
+   "b": "#FFFFFF",
+   "ratio": 7.52,
+   "need": 3
+  },
+  {
+   "pair": "mark main stroke on bg",
+   "a": "#5A2D52",
+   "b": "#FBFAF8",
+   "ratio": 10.42,
+   "need": 3
+  },
+  {
+   "pair": "placeholder on white",
+   "a": "rgb(106, 111, 124)",
+   "b": "#FFFFFF",
+   "ratio": 5.03,
+   "need": 4.5
+  },
+  {
+   "pair": "logo echo stroke #A87C9C on bg #FBFAF8 (decorative secondary stroke)",
+   "a": "#A87C9C",
+   "b": "#FBFAF8",
+   "ratio": 3.34,
+   "need": 3
+  }
+ ],
+ "nontext_failures": [],
+ "skipped": []
+}

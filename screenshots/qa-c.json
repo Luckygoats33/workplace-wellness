@@ -1,0 +1,361 @@
+{
+ "390": {
+  "external_requests": [],
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "bodyScrollWidth": 390,
+   "over": []
+  },
+  "overflow_samples": [
+   390,
+   390,
+   390,
+   390,
+   390
+  ],
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x2"
+   ]
+  },
+  "menu_expanded": "true",
+  "tap_small_menu": [],
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "done_visible": true,
+  "form_hidden": false,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8768/",
+  "errors": []
+ },
+ "768": {
+  "external_requests": [],
+  "overflow": {
+   "scrollWidth": 768,
+   "clientWidth": 768,
+   "bodyScrollWidth": 768,
+   "over": []
+  },
+  "overflow_samples": [
+   768,
+   768,
+   768,
+   768,
+   768
+  ],
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x1"
+   ]
+  },
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "done_visible": true,
+  "form_hidden": false,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8768/",
+  "errors": []
+ },
+ "1280": {
+  "external_requests": [],
+  "overflow": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "bodyScrollWidth": 1280,
+   "over": []
+  },
+  "overflow_samples": [
+   1280,
+   1280,
+   1280,
+   1280,
+   1280
+  ],
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x1"
+   ]
+  },
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "done_visible": true,
+  "form_hidden": false,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8768/",
+  "errors": []
+ },
+ "pace": {
+  "join": {
+   "html_pace": "join",
+   "phase": "out",
+   "ring_transform_samples": [
+    "matrix(1, 0, 0, 1, 0, 0)",
+    "matrix(1, 0, 0, 1, 0, 0)",
+    "matrix(0.956717, 0, 0, 0.956717, 0, 0)"
+   ],
+   "ring_moves": true,
+   "reveal_y": "14px",
+   "status": "Join in: follow along with the group. The ring breathes in for 4 seconds and out for 6."
+  },
+  "adapt": {
+   "html_pace": "adapt",
+   "phase": "out",
+   "ring_transform_samples": [
+    "matrix(0.901185, 0, 0, 0.901185, 0, 0)",
+    "matrix(0.950412, 0, 0, 0.950412, 0, 0)",
+    "matrix(0.957657, 0, 0, 0.957657, 0, 0)"
+   ],
+   "ring_moves": true,
+   "reveal_y": "5px",
+   "status": "Adapt: a smaller version. The ring moves less and the page moves gently."
+  },
+  "observe": {
+   "html_pace": "observe",
+   "phase": "in",
+   "ring_transform_samples": [
+    "matrix(0.91, 0, 0, 0.91, 0, 0)",
+    "matrix(0.91, 0, 0, 0.91, 0, 0)",
+    "matrix(0.91, 0, 0, 0.91, 0, 0)"
+   ],
+   "ring_moves": false,
+   "reveal_y": "0px",
+   "status": "Observe: just watch. The ring only glows softly and the page barely moves."
+  },
+  "out": {
+   "html_pace": "out",
+   "phase": "rest",
+   "ring_transform_samples": [
+    "matrix(0.901, 0, 0, 0.901, 0, 0)",
+    "matrix(0.901, 0, 0, 0.901, 0, 0)",
+    "matrix(0.901, 0, 0, 0.901, 0, 0)"
+   ],
+   "ring_moves": false,
+   "reveal_y": "0px",
+   "status": "Step out: everything on the page is still. Nothing is asked of you."
+  }
+ },
+ "arrow_right_pace": "adapt",
+ "section_button_pace": "observe",
+ "radio_synced": "observe",
+ "overflow_sweep_320_1440": {
+  "320": {
+   "scrollWidth": 320,
+   "clientWidth": 320,
+   "over": []
+  },
+  "360": {
+   "scrollWidth": 360,
+   "clientWidth": 360,
+   "over": []
+  },
+  "400": {
+   "scrollWidth": 400,
+   "clientWidth": 400,
+   "over": []
+  },
+  "440": {
+   "scrollWidth": 440,
+   "clientWidth": 440,
+   "over": []
+  },
+  "480": {
+   "scrollWidth": 480,
+   "clientWidth": 480,
+   "over": []
+  },
+  "520": {
+   "scrollWidth": 520,
+   "clientWidth": 520,
+   "over": []
+  },
+  "560": {
+   "scrollWidth": 560,
+   "clientWidth": 560,
+   "over": []
+  },
+  "600": {
+   "scrollWidth": 600,
+   "clientWidth": 600,
+   "over": []
+  },
+  "640": {
+   "scrollWidth": 640,
+   "clientWidth": 640,
+   "over": []
+  },
+  "680": {
+   "scrollWidth": 680,
+   "clientWidth": 680,
+   "over": []
+  },
+  "720": {
+   "scrollWidth": 720,
+   "clientWidth": 720,
+   "over": []
+  },
+  "760": {
+   "scrollWidth": 760,
+   "clientWidth": 760,
+   "over": []
+  },
+  "800": {
+   "scrollWidth": 800,
+   "clientWidth": 800,
+   "over": []
+  },
+  "840": {
+   "scrollWidth": 840,
+   "clientWidth": 840,
+   "over": []
+  },
+  "880": {
+   "scrollWidth": 880,
+   "clientWidth": 880,
+   "over": []
+  },
+  "920": {
+   "scrollWidth": 920,
+   "clientWidth": 920,
+   "over": []
+  },
+  "960": {
+   "scrollWidth": 960,
+   "clientWidth": 960,
+   "over": []
+  },
+  "1000": {
+   "scrollWidth": 1000,
+   "clientWidth": 1000,
+   "over": []
+  },
+  "1040": {
+   "scrollWidth": 1040,
+   "clientWidth": 1040,
+   "over": []
+  },
+  "1080": {
+   "scrollWidth": 1080,
+   "clientWidth": 1080,
+   "over": []
+  },
+  "1120": {
+   "scrollWidth": 1120,
+   "clientWidth": 1120,
+   "over": []
+  },
+  "1160": {
+   "scrollWidth": 1160,
+   "clientWidth": 1160,
+   "over": []
+  },
+  "1200": {
+   "scrollWidth": 1200,
+   "clientWidth": 1200,
+   "over": []
+  },
+  "1240": {
+   "scrollWidth": 1240,
+   "clientWidth": 1240,
+   "over": []
+  },
+  "1280": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "over": []
+  },
+  "1320": {
+   "scrollWidth": 1320,
+   "clientWidth": 1320,
+   "over": []
+  },
+  "1360": {
+   "scrollWidth": 1360,
+   "clientWidth": 1360,
+   "over": []
+  },
+  "1400": {
+   "scrollWidth": 1400,
+   "clientWidth": 1400,
+   "over": []
+  },
+  "1440": {
+   "scrollWidth": 1440,
+   "clientWidth": 1440,
+   "over": []
+  }
+ },
+ "overflow_sweep_max_excess": 0,
+ "reduced_motion": {
+  "reveal_opacity": "1",
+  "reveal_transform": "none",
+  "any_running_animation": 0,
+  "data_pace": "join",
+  "ring_static": true,
+  "data_phase": "rest",
+  "cue_text": "Breathe in for 4, out for 6",
+  "ring_transition": "0s",
+  "pace_choice_still_works": "adapt",
+  "phase_after_choice": "rest"
+ }
+}

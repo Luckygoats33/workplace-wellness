@@ -1,0 +1,915 @@
+{
+ "lowest_text_ratio": {
+  "fg": "#505766",
+  "bg": "#F5EEF3",
+  "ratio": 6.36,
+  "large": false,
+  "need": 4.5,
+  "count": 1,
+  "example": "At any point, anyone can choos <p.section-lede>",
+  "viewports": [
+   390,
+   1280
+  ],
+  "states": [
+   "default (join, top of page, header full)"
+  ]
+ },
+ "text_pairs_unique": 31,
+ "states_measured": 54,
+ "text_failures": [],
+ "text_table": [
+  {
+   "fg": "#505766",
+   "bg": "#F5EEF3",
+   "ratio": 6.36,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "At any point, anyone can choos <p.section-lede>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#505766",
+   "bg": "#F3F0EB",
+   "ratio": 6.38,
+   "large": false,
+   "need": 4.5,
+   "count": 4,
+   "example": "A few details are enough to st <p.section-lede>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "faq_attendees_open",
+    "faq_buyers_open",
+    "form_done"
+   ]
+  },
+  {
+   "fg": "#A31D3A",
+   "bg": "#FDF0F2",
+   "ratio": 6.77,
+   "large": false,
+   "need": 4.5,
+   "count": 2,
+   "example": "Please check a few things <h3.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "form_errors",
+    "form_health_flag"
+   ]
+  },
+  {
+   "fg": "#505766",
+   "bg": "#FBFAF8",
+   "ratio": 6.95,
+   "large": false,
+   "need": 4.5,
+   "count": 5,
+   "example": "None at all. Everything is exp <p.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "faq_attendees_open",
+    "faq_buyers_open",
+    "flat sample day (all 5 steps visible)"
+   ]
+  },
+  {
+   "fg": "#505766",
+   "bg": "#FBFAF8",
+   "ratio": 6.95,
+   "large": true,
+   "need": 3,
+   "count": 4,
+   "example": "Welcome <h4.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "pinned stage step 1",
+    "pinned stage step 2",
+    "pinned stage step 3"
+   ]
+  },
+  {
+   "fg": "#505766",
+   "bg": "#FFFFFF",
+   "ratio": 7.25,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Every required field passed va <p.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_done",
+    "form_errors",
+    "form_health_flag"
+   ]
+  },
+  {
+   "fg": "#A31D3A",
+   "bg": "#FFFFFF",
+   "ratio": 7.52,
+   "large": false,
+   "need": 4.5,
+   "count": 6,
+   "example": "* <span.req>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_errors",
+    "form_health_flag"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#EBDCE6",
+   "ratio": 8.24,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "5 <span.>",
+   "viewports": [
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "pinned stage step 1",
+    "pinned stage step 2",
+    "pinned stage step 3"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F5EEF3",
+   "ratio": 9.53,
+   "large": false,
+   "need": 4.5,
+   "count": 2,
+   "example": "Participation is a choice <p.eyebrow>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F5EEF3",
+   "ratio": 9.53,
+   "large": true,
+   "need": 3,
+   "count": 2,
+   "example": "Your call. <em.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F3F0EB",
+   "ratio": 9.56,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Experience <a.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .site-nav li a",
+    "default (join, top of page, header full)",
+    "form_done",
+    "form_errors"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#F3F0EB",
+   "ratio": 9.56,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "your people. <em.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_done",
+    "form_errors",
+    "form_health_flag"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FBFAF8",
+   "ratio": 10.42,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Support Wellness Global <a.inline-link>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .footer__nav a",
+    "__hover .inline-link",
+    "__hover .qa summary",
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FBFAF8",
+   "ratio": 10.42,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "answered. <em.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "faq_attendees_open",
+    "faq_buyers_open",
+    "flat sample day (all 5 steps visible)"
+   ]
+  },
+  {
+   "fg": "#FFFFFF",
+   "bg": "#5A2D52",
+   "ratio": 10.87,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Use this pace <button.btn>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .pcard .btn",
+    "__hover .steps__cta .btn--dark",
+    "default (join, top of page, header full)",
+    "faq_attendees_open"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FFFFFF",
+   "ratio": 10.87,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "Nothing was sent. <em.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_done",
+    "pace adapt",
+    "pace observe"
+   ]
+  },
+  {
+   "fg": "#5A2D52",
+   "bg": "#FFFFFF",
+   "ratio": 10.87,
+   "large": false,
+   "need": 4.5,
+   "count": 7,
+   "example": "Page motion: full <p.pcard__tag>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#E3DED6",
+   "ratio": 12.1,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "I\u2019m attending <button.tabs__tab>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .tabs__tab:not([aria-selected=true])"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#EBDCE6",
+   "ratio": 12.28,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Closing conversation <small.>",
+   "viewports": [
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "pinned stage step 1",
+    "pinned stage step 2",
+    "pinned stage step 3"
+   ]
+  },
+  {
+   "fg": "#3F1D39",
+   "bg": "#F5EEF3",
+   "ratio": 12.73,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Paused. Take your time. <p.dock__cue>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "pace adapt",
+    "pace observe",
+    "pace out"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F5EEF3",
+   "ratio": 14.2,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Join in <span.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .seg__opt",
+    "default (join, top of page, header full)",
+    "form_done",
+    "form_errors"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F5EEF3",
+   "ratio": 14.2,
+   "large": true,
+   "need": 3,
+   "count": 2,
+   "example": "Your pace. <h2.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F3F0EB",
+   "ratio": 14.26,
+   "large": false,
+   "need": 4.5,
+   "count": 4,
+   "example": "to be confirmed <strong.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "faq_attendees_open",
+    "faq_buyers_open",
+    "flat sample day (all 5 steps visible)"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#F3F0EB",
+   "ratio": 14.26,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "Tell us about <h2.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_done",
+    "form_errors",
+    "form_health_flag"
+   ]
+  },
+  {
+   "fg": "#3F1D39",
+   "bg": "#FFFFFF",
+   "ratio": 14.52,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Breathe in <p.choice__cue>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)"
+   ]
+  },
+  {
+   "fg": "#FFFFFF",
+   "bg": "#3F1D39",
+   "ratio": 14.52,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "Plan your team experience <span.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .form__foot .btn",
+    "__hover .hero__actions .btn--accent",
+    "__hover .site-nav .btn"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FBFAF8",
+   "ratio": 15.53,
+   "large": false,
+   "need": 4.5,
+   "count": 5,
+   "example": "Do I need any prior experience <summary.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "faq_attendees_open",
+    "faq_buyers_open",
+    "flat sample day (all 5 steps visible)"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FBFAF8",
+   "ratio": 15.53,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "Questions, <h2.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "faq_attendees_open",
+    "faq_buyers_open",
+    "flat sample day (all 5 steps visible)"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FFFFFF",
+   "ratio": 16.21,
+   "large": false,
+   "need": 4.5,
+   "count": 8,
+   "example": "Your name <label.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_errors",
+    "form_health_flag",
+    "mobile menu open"
+   ]
+  },
+  {
+   "fg": "#1B2030",
+   "bg": "#FFFFFF",
+   "ratio": 16.21,
+   "large": true,
+   "need": 3,
+   "count": 1,
+   "example": "Looks good. <h3.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "default (join, top of page, header full)",
+    "form_done",
+    "pace adapt",
+    "pace observe"
+   ]
+  },
+  {
+   "fg": "#FFFFFF",
+   "bg": "#1B2030",
+   "ratio": 16.21,
+   "large": false,
+   "need": 4.5,
+   "count": 1,
+   "example": "See what people do <span.>",
+   "viewports": [
+    390,
+    1280
+   ],
+   "states": [
+    "__hover .hero__actions .btn--ghost",
+    "default (join, top of page, header full)",
+    "form_done"
+   ]
+  }
+ ],
+ "by_state": {
+  "390px | default (join, top of page, header full)": {
+   "pairs": 26,
+   "lowest": 6.36
+  },
+  "390px | scrolled: compact header + progress": {
+   "pairs": 2,
+   "lowest": 15.53
+  },
+  "390px | nav active section (Program current)": {
+   "pairs": 2,
+   "lowest": 15.53
+  },
+  "390px | mobile menu open": {
+   "pairs": 5,
+   "lowest": 6.95
+  },
+  "390px | flat sample day (all 5 steps visible)": {
+   "pairs": 6,
+   "lowest": 6.95
+  },
+  "390px | pace adapt": {
+   "pairs": 12,
+   "lowest": 6.95
+  },
+  "390px | pace observe": {
+   "pairs": 12,
+   "lowest": 6.95
+  },
+  "390px | pace out": {
+   "pairs": 12,
+   "lowest": 6.95
+  },
+  "390px | faq_buyers_open": {
+   "pairs": 8,
+   "lowest": 6.38
+  },
+  "390px | faq_attendees_open": {
+   "pairs": 8,
+   "lowest": 6.38
+  },
+  "390px | form_errors": {
+   "pairs": 11,
+   "lowest": 6.38
+  },
+  "390px | form_health_flag": {
+   "pairs": 11,
+   "lowest": 6.38
+  },
+  "390px | form_done": {
+   "pairs": 11,
+   "lowest": 6.38
+  },
+  "390px | __hover .hero__actions .btn--accent": {
+   "pairs": 1,
+   "lowest": 14.52
+  },
+  "390px | __hover .hero__actions .btn--ghost": {
+   "pairs": 1,
+   "lowest": 16.21
+  },
+  "390px | __hover .steps__cta .btn--dark": {
+   "pairs": 1,
+   "lowest": 10.87
+  },
+  "390px | __hover .pcard .btn": {
+   "pairs": 1,
+   "lowest": 10.87
+  },
+  "390px | __ERR .site-nav li a": {
+   "pairs": 0,
+   "lowest": 99
+  },
+  "390px | __ERR .site-nav .btn": {
+   "pairs": 0,
+   "lowest": 99
+  },
+  "390px | __hover .tabs__tab:not([aria-selected=true])": {
+   "pairs": 1,
+   "lowest": 12.1
+  },
+  "390px | __hover .qa summary": {
+   "pairs": 1,
+   "lowest": 10.42
+  },
+  "390px | __hover .seg__opt": {
+   "pairs": 1,
+   "lowest": 14.2
+  },
+  "390px | __hover .footer__nav a": {
+   "pairs": 1,
+   "lowest": 10.42
+  },
+  "390px | __hover .inline-link": {
+   "pairs": 1,
+   "lowest": 10.42
+  },
+  "390px | __hover .form__foot .btn": {
+   "pairs": 1,
+   "lowest": 14.52
+  },
+  "1280px | default (join, top of page, header full)": {
+   "pairs": 28,
+   "lowest": 6.36
+  },
+  "1280px | scrolled: compact header + progress": {
+   "pairs": 3,
+   "lowest": 10.42
+  },
+  "1280px | nav active section (Program current)": {
+   "pairs": 3,
+   "lowest": 10.42
+  },
+  "1280px | flat sample day (all 5 steps visible)": {
+   "pairs": 7,
+   "lowest": 6.95
+  },
+  "1280px | pinned stage step 1": {
+   "pairs": 9,
+   "lowest": 6.95
+  },
+  "1280px | pinned stage step 2": {
+   "pairs": 9,
+   "lowest": 6.95
+  },
+  "1280px | pinned stage step 3": {
+   "pairs": 9,
+   "lowest": 6.95
+  },
+  "1280px | pinned stage step 4": {
+   "pairs": 9,
+   "lowest": 6.95
+  },
+  "1280px | pinned stage step 5": {
+   "pairs": 8,
+   "lowest": 6.95
+  },
+  "1280px | pace adapt": {
+   "pairs": 12,
+   "lowest": 6.95
+  },
+  "1280px | pace observe": {
+   "pairs": 12,
+   "lowest": 6.95
+  },
+  "1280px | pace out": {
+   "pairs": 12,
+   "lowest": 6.95
+  },
+  "1280px | faq_buyers_open": {
+   "pairs": 8,
+   "lowest": 6.38
+  },
+  "1280px | faq_attendees_open": {
+   "pairs": 8,
+   "lowest": 6.38
+  },
+  "1280px | form_errors": {
+   "pairs": 11,
+   "lowest": 6.38
+  },
+  "1280px | form_health_flag": {
+   "pairs": 11,
+   "lowest": 6.38
+  },
+  "1280px | form_done": {
+   "pairs": 11,
+   "lowest": 6.38
+  },
+  "1280px | __hover .hero__actions .btn--accent": {
+   "pairs": 1,
+   "lowest": 14.52
+  },
+  "1280px | __hover .hero__actions .btn--ghost": {
+   "pairs": 1,
+   "lowest": 16.21
+  },
+  "1280px | __hover .steps__cta .btn--dark": {
+   "pairs": 1,
+   "lowest": 10.87
+  },
+  "1280px | __hover .pcard .btn": {
+   "pairs": 1,
+   "lowest": 10.87
+  },
+  "1280px | __hover .site-nav li a": {
+   "pairs": 1,
+   "lowest": 9.56
+  },
+  "1280px | __hover .site-nav .btn": {
+   "pairs": 1,
+   "lowest": 14.52
+  },
+  "1280px | __hover .tabs__tab:not([aria-selected=true])": {
+   "pairs": 1,
+   "lowest": 12.1
+  },
+  "1280px | __hover .qa summary": {
+   "pairs": 1,
+   "lowest": 10.42
+  },
+  "1280px | __hover .seg__opt": {
+   "pairs": 1,
+   "lowest": 14.2
+  },
+  "1280px | __hover .footer__nav a": {
+   "pairs": 1,
+   "lowest": 10.42
+  },
+  "1280px | __hover .inline-link": {
+   "pairs": 1,
+   "lowest": 10.42
+  },
+  "1280px | __hover .form__foot .btn": {
+   "pairs": 1,
+   "lowest": 14.52
+  }
+ },
+ "nontext": [
+  {
+   "pair": "focus ring (--plum) on --surface",
+   "a": "#5A2D52",
+   "b": "#FFFFFF",
+   "ratio": 10.87,
+   "need": 3
+  },
+  {
+   "pair": "focus ring (--plum) on --bg",
+   "a": "#5A2D52",
+   "b": "#FBFAF8",
+   "ratio": 10.42,
+   "need": 3
+  },
+  {
+   "pair": "focus ring (--plum) on --stone",
+   "a": "#5A2D52",
+   "b": "#F3F0EB",
+   "ratio": 9.56,
+   "need": 3
+  },
+  {
+   "pair": "focus ring (--plum) on --tint",
+   "a": "#5A2D52",
+   "b": "#F5EEF3",
+   "ratio": 9.53,
+   "need": 3
+  },
+  {
+   "pair": "input border (--edge) on white field",
+   "a": "#7D7885",
+   "b": "#FFFFFF",
+   "ratio": 4.29,
+   "need": 3
+  },
+  {
+   "pair": "radio dot / option border (--edge) on white",
+   "a": "#7D7885",
+   "b": "#FFFFFF",
+   "ratio": 4.29,
+   "need": 3
+  },
+  {
+   "pair": "radio dot border (--edge) on checked tint face",
+   "a": "#7D7885",
+   "b": "#F5EEF3",
+   "ratio": 3.76,
+   "need": 3
+  },
+  {
+   "pair": "error border/text (--err) on white",
+   "a": "#A31D3A",
+   "b": "#FFFFFF",
+   "ratio": 7.52,
+   "need": 3
+  },
+  {
+   "pair": "error text (--err) on error bg",
+   "a": "#A31D3A",
+   "b": "#FDF0F2",
+   "ratio": 6.77,
+   "need": 4.5
+  },
+  {
+   "pair": "mark main stroke on bg",
+   "a": "#5A2D52",
+   "b": "#FBFAF8",
+   "ratio": 10.42,
+   "need": 3
+  },
+  {
+   "pair": "FAQ plus/minus icon (--plum) on bg",
+   "a": "#5A2D52",
+   "b": "#FBFAF8",
+   "ratio": 10.42,
+   "need": 3
+  },
+  {
+   "pair": "FAQ icon ring border (--edge) on bg",
+   "a": "#7D7885",
+   "b": "#FBFAF8",
+   "ratio": 4.11,
+   "need": 3
+  },
+  {
+   "pair": "placeholder on white",
+   "a": "rgb(106, 111, 124)",
+   "b": "#FFFFFF",
+   "ratio": 5.03,
+   "need": 4.5
+  },
+  {
+   "pair": "decorative: logo echo stroke #A87C9C on bg #FBFAF8 (secondary stroke, not information)",
+   "a": "#A87C9C",
+   "b": "#FBFAF8",
+   "ratio": 3.34,
+   "need": 3,
+   "decorative": true
+  },
+  {
+   "pair": "decorative: ring hairlines #CDAFC4 on bg (art only, not information)",
+   "a": "#CDAFC4",
+   "b": "#FBFAF8",
+   "ratio": 1.91,
+   "need": 3,
+   "decorative": true
+  }
+ ],
+ "nontext_failures": [],
+ "skipped": [
+  "ElementHandle.scroll_into_view_if_needed: Timeout 30000ms exceeded.\nCall log:\n  "
+ ]
+}

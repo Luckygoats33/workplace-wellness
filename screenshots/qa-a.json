@@ -1,0 +1,160 @@
+{
+ "390": {
+  "external_requests": [],
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "bodyScrollWidth": 390,
+   "over": []
+  },
+  "overflow_samples": [
+   390,
+   390,
+   390,
+   390,
+   390
+  ],
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x160"
+   ]
+  },
+  "menu_expanded": "true",
+  "tap_small_menu": [],
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "done_visible": true,
+  "form_hidden": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8766/",
+  "errors": []
+ },
+ "768": {
+  "external_requests": [],
+  "overflow": {
+   "scrollWidth": 768,
+   "clientWidth": 768,
+   "bodyScrollWidth": 768,
+   "over": []
+  },
+  "overflow_samples": [
+   768,
+   768,
+   768,
+   768,
+   768
+  ],
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x159"
+   ]
+  },
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "done_visible": true,
+  "form_hidden": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8766/",
+  "errors": []
+ },
+ "1280": {
+  "external_requests": [],
+  "overflow": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "bodyScrollWidth": 1280,
+   "over": []
+  },
+  "overflow_samples": [
+   1280,
+   1280,
+   1280,
+   1280,
+   1280
+  ],
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x166"
+   ]
+  },
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "done_visible": true,
+  "form_hidden": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8766/",
+  "errors": []
+ },
+ "pace_after_click": "observe",
+ "pace_after_scroll_to_out": "out",
+ "field_toggle_pressed": "true",
+ "reduced_motion": {
+  "reveal_opacity": "1",
+  "reveal_transform": "none",
+  "any_running_animation": 0,
+  "data_pace": "join",
+  "kinetic_word_static": true,
+  "field_toggle_display": "none",
+  "canvas_static": true
+ }
+}

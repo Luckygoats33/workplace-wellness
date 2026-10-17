@@ -1,0 +1,11 @@
+photo-candidates/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+.env*
+tmp/
+.tmp/
+.cache/
+.lighthouseci/

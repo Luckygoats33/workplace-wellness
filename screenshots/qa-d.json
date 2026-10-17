@@ -1,0 +1,671 @@
+{
+ "320": {
+  "viewport": [
+   320,
+   700
+  ],
+  "overflow": {
+   "scrollWidth": 320,
+   "clientWidth": 320,
+   "bodyScrollWidth": 320,
+   "over": []
+  },
+  "overflow_samples": [
+   320,
+   320,
+   320,
+   320,
+   320,
+   320,
+   320
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x41"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.0343)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "menu_expanded": "true",
+  "tap_small_menu": [],
+  "menu_hscroll": 0,
+  "focus_stops": 22,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 11,
+  "errors": []
+ },
+ "390": {
+  "viewport": [
+   390,
+   844
+  ],
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "bodyScrollWidth": 390,
+   "over": []
+  },
+  "overflow_samples": [
+   390,
+   390,
+   390,
+   390,
+   390,
+   390,
+   390
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x41"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.038)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "menu_expanded": "true",
+  "tap_small_menu": [],
+  "menu_hscroll": 0,
+  "focus_stops": 22,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 11,
+  "errors": []
+ },
+ "768": {
+  "viewport": [
+   768,
+   1024
+  ],
+  "overflow": {
+   "scrollWidth": 768,
+   "clientWidth": 768,
+   "bodyScrollWidth": 768,
+   "over": []
+  },
+  "overflow_samples": [
+   768,
+   768,
+   768,
+   768,
+   768,
+   768,
+   768
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x40"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.0529)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "focus_stops": 25,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 13,
+  "errors": []
+ },
+ "1024": {
+  "viewport": [
+   1024,
+   768
+  ],
+  "overflow": {
+   "scrollWidth": 1024,
+   "clientWidth": 1024,
+   "bodyScrollWidth": 1024,
+   "over": []
+  },
+  "overflow_samples": [
+   1024,
+   1024,
+   1024,
+   1024,
+   1024,
+   1024,
+   1024
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x39"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.0492)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "focus_stops": 30,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 11,
+  "errors": []
+ },
+ "1280": {
+  "viewport": [
+   1280,
+   800
+  ],
+  "overflow": {
+   "scrollWidth": 1280,
+   "clientWidth": 1280,
+   "bodyScrollWidth": 1280,
+   "over": []
+  },
+  "overflow_samples": [
+   1280,
+   1280,
+   1280,
+   1280,
+   1280,
+   1280,
+   1280
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x38"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.0469)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "focus_stops": 30,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 12,
+  "errors": []
+ },
+ "1440": {
+  "viewport": [
+   1440,
+   900
+  ],
+  "overflow": {
+   "scrollWidth": 1440,
+   "clientWidth": 1440,
+   "bodyScrollWidth": 1440,
+   "over": []
+  },
+  "overflow_samples": [
+   1440,
+   1440,
+   1440,
+   1440,
+   1440,
+   1440,
+   1440
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x39"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.046)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "focus_stops": 30,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 12,
+  "errors": []
+ },
+ "1920": {
+  "viewport": [
+   1920,
+   1080
+  ],
+  "overflow": {
+   "scrollWidth": 1920,
+   "clientWidth": 1920,
+   "bodyScrollWidth": 1920,
+   "over": []
+  },
+  "overflow_samples": [
+   1920,
+   1920,
+   1920,
+   1920,
+   1920,
+   1920,
+   1920
+  ],
+  "hscroll_px": 0,
+  "tap_small": [],
+  "axe": {
+   "violations": [],
+   "incomplete": [
+    "color-contrast x39"
+   ]
+  },
+  "header_compact_on_scroll": true,
+  "header_height_compact": 59,
+  "progress_scaleX_at_600": "scaleX(0.0428)",
+  "progress_scaleX_at_bottom": "scaleX(1)",
+  "scrollspy": {
+   "experience": "Experience",
+   "program": "Program",
+   "facilitators": "Facilitators",
+   "how-it-works": "How it works",
+   "faq": "FAQ",
+   "plan": "Plan your experience"
+  },
+  "focus_stops": 30,
+  "focus_without_ring": [],
+  "empty_submit_errors": [
+   "Your name: Enter your name.",
+   "Company: Enter your company name.",
+   "Work email: Enter your work email.",
+   "Event type: Choose an event type.",
+   "Audience size: Choose an approximate audience size."
+  ],
+  "summary_focused": true,
+  "invalid_fields": [
+   "f-name",
+   "f-company",
+   "f-email",
+   "f-type",
+   "f-size"
+  ],
+  "bad_email_and_health_errors": [
+   "Work email: Enter an email address like name@company.com.",
+   "Goals: This looks like it may include health information. Please describe your event goals only."
+  ],
+  "meter_before_valid": "4",
+  "meter_valid": "5",
+  "done_visible": true,
+  "form_hidden": false,
+  "done_text": "Looks good. Nothing was sent.",
+  "done_focused": true,
+  "requests_after_submit": [],
+  "url_after": "http://127.0.0.1:8769/",
+  "external_requests": [],
+  "total_requests": 11,
+  "errors": []
+ },
+ "checks": {
+  "pinned_stage": [
+   {
+    "fraction": 0.02,
+    "active_step": 1,
+    "stage_label": "Welcome",
+    "stick_position": "sticky"
+   },
+   {
+    "fraction": 0.25,
+    "active_step": 2,
+    "stage_label": "Session with Sean",
+    "stick_position": "sticky"
+   },
+   {
+    "fraction": 0.45,
+    "active_step": 3,
+    "stage_label": "Reflect & reset",
+    "stick_position": "sticky"
+   },
+   {
+    "fraction": 0.65,
+    "active_step": 4,
+    "stage_label": "Session with Brandon",
+    "stick_position": "sticky"
+   },
+   {
+    "fraction": 0.9,
+    "active_step": 5,
+    "stage_label": "Closing conversation",
+    "stick_position": "sticky"
+   }
+  ],
+  "pinned_steps_distinct_and_ordered": true,
+  "parallax_join": {
+   "at0": [
+    "matrix(1, 0, 0, 1, 0, 0)",
+    "matrix(1, 0, 0, 1, 0, 0)"
+   ],
+   "at320": [
+    "matrix(1, 0, 0, 1, 0, 10.64)",
+    "matrix(1, 0, 0, 1, 0, -22.8)"
+   ],
+   "moves": true
+  },
+  "pace": {
+   "join": {
+    "m": "1",
+    "calm": false,
+    "parallax_A_transform": "matrix(1, 0, 0, 1, 0, 11.865)",
+    "day_stick_position": "sticky",
+    "status": "Join in: follow along with the group. The ring breathes in for 4 seconds and out for 6.",
+    "ring_transforms": [
+     "matrix(0.799782, 0, 0, 0.799782, 0, 0)",
+     "matrix(0.90182, 0, 0, 0.90182, 0, 0)",
+     "matrix(0.997208, 0, 0, 0.997208, 0, 0)"
+    ],
+    "ring_static": false,
+    "running_animations": 11,
+    "data_phase": "out",
+    "transition_core": "6s",
+    "hover_lift_card": null
+   },
+   "adapt": {
+    "m": "0.5",
+    "calm": false,
+    "parallax_A_transform": "matrix(1, 0, 0, 1, 0, 5.6525)",
+    "day_stick_position": "sticky",
+    "status": "Adapt: a smaller version. The ring moves less and the page moves gently.",
+    "ring_transforms": [
+     "matrix(0.905307, 0, 0, 0.905307, 0, 0)",
+     "matrix(0.960077, 0, 0, 0.960077, 0, 0)",
+     "matrix(0.949288, 0, 0, 0.949288, 0, 0)"
+    ],
+    "ring_static": false,
+    "running_animations": 11,
+    "data_phase": "out",
+    "transition_core": "6s",
+    "hover_lift_card": null
+   },
+   "observe": {
+    "m": "0.2",
+    "calm": true,
+    "parallax_A_transform": "matrix(1, 0, 0, 1, 0, 2.261)",
+    "day_stick_position": "static",
+    "status": "Observe: just watch. The ring only glows softly and the page barely moves.",
+    "ring_transforms": [
+     "matrix(0.91, 0, 0, 0.91, 0, 0)",
+     "matrix(0.91, 0, 0, 0.91, 0, 0)",
+     "matrix(0.91, 0, 0, 0.91, 0, 0)"
+    ],
+    "ring_static": true,
+    "running_animations": 4,
+    "data_phase": "in",
+    "transition_core": "4s",
+    "hover_lift_card": null
+   },
+   "out": {
+    "m": "0",
+    "calm": true,
+    "parallax_A_transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "day_stick_position": "static",
+    "status": "Step out: everything on the page is still. Nothing is asked of you.",
+    "ring_transforms": [
+     "matrix(0.901, 0, 0, 0.901, 0, 0)",
+     "matrix(0.901, 0, 0, 0.901, 0, 0)",
+     "matrix(0.901, 0, 0, 0.901, 0, 0)"
+    ],
+    "ring_static": true,
+    "running_animations": 0,
+    "data_phase": "rest",
+    "transition_core": "0s",
+    "hover_lift_card": null
+   }
+  },
+  "out_after_scroll": {
+   "parallax_A": "matrix(1, 0, 0, 1, 0, 0)",
+   "reveals_hidden": 0,
+   "running_animations": 0
+  },
+  "radio_arrow_key": "adapt",
+  "reduced_motion": {
+   "390": {
+    "ring_static": true,
+    "data_phase": "rest",
+    "cue": "Breathe in for 4, out for 6",
+    "ring_transition": "0s",
+    "running_animations": 0,
+    "parallax_A_transform_scrolled": "none",
+    "day_stick_position": "static",
+    "reveals_hidden": 0,
+    "day_all_text_visible": true,
+    "hover_transition_btn": "0s",
+    "pace_choice_still_works": "adapt",
+    "phase_after_choice": "rest"
+   },
+   "1280": {
+    "ring_static": true,
+    "data_phase": "rest",
+    "cue": "Breathe in for 4, out for 6",
+    "ring_transition": "0s",
+    "running_animations": 0,
+    "parallax_A_transform_scrolled": "none",
+    "day_stick_position": "static",
+    "reveals_hidden": 0,
+    "day_all_text_visible": true,
+    "hover_transition_btn": "0s",
+    "pace_choice_still_works": "adapt",
+    "phase_after_choice": "rest"
+   }
+  }
+ }
+}
