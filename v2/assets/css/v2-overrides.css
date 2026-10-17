@@ -1,0 +1,54 @@
+/* v2 Design Improvements — override layer */
+
+/* ── Color & contrast fixes ── */
+:root{
+  --muted:#3A3F4C;
+  --copper:#B87333;
+  --copper-soft:#D4956B;
+}
+
+.pending p{color:var(--muted)}
+.addon__note{color:var(--muted)}
+
+/* ── Spacing reductions (~35-40% tighter) ── */
+:root{
+  --sec:clamp(3rem, 6vw, 6rem);
+}
+
+.choice__stage{padding:clamp(1rem,2.5vw,2rem)}
+.ring--lg{width:min(60%,280px)}
+.choice__cue{font-size:.9375rem}
+
+.later{padding-bottom:clamp(2rem,4vw,4rem)}
+.later__inner{padding:clamp(1.1rem,2vw,1.75rem)}
+
+.s-fac .people{gap:1.25rem}
+
+.hero__strip{margin-top:clamp(1.5rem,3.5vw,3rem)}
+
+.steps__cta{margin-top:1.25rem}
+
+/* ── CTA improvements ── */
+.btn--dark{
+  --sweep:var(--plum-d);
+  background-color:var(--plum);
+  box-shadow:0 14px 28px -14px rgba(63,29,57,.45);
+}
+.btn--dark:hover{
+  background-size:100% 100%;
+}
+
+/* ── Secondary accent (copper) usage ── */
+.step__no{background:var(--copper)}
+.eyebrow::before{background:var(--copper)}
+.act.is-active .act__no{color:var(--copper)}
+.exp__cur{color:var(--copper)}
+.format__tag{color:var(--copper)}
+.act.is-active::before{background:var(--copper)}
+
+/* Copper for the experience bar fill */
+.exp__bar i{background:var(--copper)}
+
+/* ── Typography: pending section contrast ── */
+.pending{color:var(--muted);opacity:1}
+.pending strong{color:var(--ink)}
