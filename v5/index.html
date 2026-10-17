@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>v5 — Cinematic experience</title>
+<meta name="description" content="Workplace Wellness by SWG — premium corporate wellness events combining guided movement, breathing, and meaningful connection.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/source-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/v5.css">
+</head>
+<body>
+
+<!-- ── Site header ── -->
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#" class="header-brand"><span>SWG</span> Workplace Wellness</a>
+    <nav class="header-nav" aria-label="Main">
+      <a href="#experience">Experience</a>
+      <a href="#programs">Programs</a>
+      <a href="#facilitators">Facilitators</a>
+      <a href="#lab">Resources</a>
+      <a href="#plan" class="header-cta">Plan Your Event</a>
+    </nav>
+    <a href="#plan" class="header-cta header-mobile-cta">Plan Event</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" id="menu-open">
+      <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ── Mobile menu ── -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu__panel">
+    <button class="mobile-menu__close" aria-label="Close menu" id="menu-close">&times;</button>
+    <a href="#experience">Experience</a>
+    <a href="#chapters">Step Inside the Event</a>
+    <a href="#facilitators">Facilitators</a>
+    <a href="#programs">Programs</a>
+    <a href="#builder">Build Your Event</a>
+    <a href="#lab">Wellness Lab</a>
+    <a href="#stories">Insights &amp; Stories</a>
+    <a href="#plan" class="header-cta" style="margin-top:auto;text-align:center">Plan Your Event</a>
+  </div>
+</div>
+
+<!-- ── 01. CINEMATIC HERO ── -->
+<section class="hero" id="top">
+  <div class="hero__w" aria-hidden="true">
+    <svg viewBox="0 0 120 80">
+      <path class="mark__echo" d="M8 20C16 20 18 68 30 68S44 28 56 28S68 68 80 68S92 20 104 20" pathLength="1" fill="none"/>
+      <path class="mark__main" d="M8 12C16 12 18 62 30 62S44 22 56 22S68 62 80 62S92 12 104 12" pathLength="1" fill="none"/>
+    </svg>
+  </div>
+  <h1 class="hero__headline">
+    <span class="word">Bring </span><span class="word">your </span><span class="word">people </span><span class="word">together </span><span class="word">through </span><span class="word">an </span><span class="word">experience </span><span class="word">they </span><span class="word">can </span><span class="word">actually </span><span class="word">take </span><span class="word">part </span><span class="word">in.</span>
+  </h1>
+  <p class="hero__sub">Premium corporate wellness events combining guided movement, breathing, and meaningful connection — designed for real workplaces.</p>
+  <div class="hero__actions">
+    <a href="#plan" class="btn btn--primary">Plan Your Event</a>
+    <a href="#experience" class="btn btn--outline">Explore the Experience</a>
+  </div>
+</section>
+
+<!-- ── 02. THE EXPERIENCE IN 30 SECONDS ── -->
+<section class="sec experience" id="experience">
+  <div class="wrap">
+    <h2 class="sec-head reveal">What will your employees actually do?</h2>
+    <div class="exp-pills" role="tablist">
+      <button class="exp-pill is-active" role="tab" aria-selected="true" data-exp="move">Move</button>
+      <button class="exp-pill" role="tab" aria-selected="false" data-exp="breathe">Breathe</button>
+      <button class="exp-pill" role="tab" aria-selected="false" data-exp="connect">Connect</button>
+    </div>
+    <div class="exp-content">
+      <div class="exp-panel is-visible" id="exp-move" role="tabpanel">
+        <div class="exp-panel__visual">
+          <picture>
+            <source srcset="assets/img/sean-duo.avif" type="image/avif">
+            <img src="assets/img/sean-duo.webp" alt="Movement experience" loading="lazy" width="541" height="338">
+          </picture>
+        </div>
+        <p class="exp-panel__text">Guided, accessible movement with Sean. Stand, sit, or simply observe — every choice is respected.</p>
+        <p class="exp-panel__learn">Every activity includes practical education your team can use after the event.</p>
+      </div>
+      <div class="exp-panel" id="exp-breathe" role="tabpanel">
+        <div class="exp-panel__visual">
+          <picture>
+            <source srcset="assets/img/brandon-duo.avif" type="image/avif">
+            <img src="assets/img/brandon-duo.webp" alt="Breathing experience" loading="lazy" width="541" height="338">
+          </picture>
+        </div>
+        <p class="exp-panel__text">Focused breathing techniques with Brandon. Follow along, adapt to your comfort, or just rest.</p>
+        <p class="exp-panel__learn">Every activity includes practical education your team can use after the event.</p>
+      </div>
+      <div class="exp-panel" id="exp-connect" role="tabpanel">
+        <div class="exp-panel__visual">
+          <picture>
+            <source srcset="assets/img/sean-color.avif" type="image/avif">
+            <img src="assets/img/sean-color.webp" alt="Connection experience" loading="lazy" width="541" height="338">
+          </picture>
+        </div>
+        <p class="exp-panel__text">Genuine group conversation. Share reflections, build understanding, leave with practical tools.</p>
+        <p class="exp-panel__learn">Every activity includes practical education your team can use after the event.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 03. STEP INSIDE THE EVENT ── -->
+<section class="sec chapters" id="chapters">
+  <div class="wrap">
+    <span class="eyebrow reveal">The Experience</span>
+    <h2 class="sec-head reveal">Step inside a Workplace Wellness event</h2>
+    <div class="chapters-viewer">
+      <nav class="chapter-nav" role="tablist" aria-label="Event chapters">
+        <button class="chapter-tab is-active" role="tab" aria-selected="true" data-chapter="1">01 Welcome</button>
+        <button class="chapter-tab" role="tab" aria-selected="false" data-chapter="2">02 Explore with Sean</button>
+        <button class="chapter-tab" role="tab" aria-selected="false" data-chapter="3">03 Reflect &amp; Reset</button>
+        <button class="chapter-tab" role="tab" aria-selected="false" data-chapter="4">04 Breathe with Brandon</button>
+        <button class="chapter-tab" role="tab" aria-selected="false" data-chapter="5">05 Connect &amp; Close</button>
+      </nav>
+      <div class="chapter-canvas">
+        <div class="chapter-panel is-visible" id="chapter-1" role="tabpanel">
+          <div class="chapter-visual">
+            <span class="chapter-visual__num">01</span>
+            <span class="chapter-visual__label">Welcome</span>
+          </div>
+          <div class="chapter-body">
+            <h3>Welcome</h3>
+            <p>Arrive to a prepared, welcoming space. Meet your facilitators. Choose how you'd like to participate — there's no wrong answer.</p>
+            <p>The room is set up for movement and comfort. Facilitators introduce themselves and explain every participation option before anything begins.</p>
+            <div class="chapter-body__meta">
+              <span class="chapter-meta-tag">Sean &amp; Brandon</span>
+              <span class="chapter-meta-tag">All participation levels</span>
+            </div>
+          </div>
+        </div>
+        <div class="chapter-panel" id="chapter-2" role="tabpanel">
+          <div class="chapter-visual">
+            <span class="chapter-visual__num">02</span>
+            <span class="chapter-visual__label">Movement</span>
+          </div>
+          <div class="chapter-body">
+            <h3>Explore with Sean</h3>
+            <p>Sean guides accessible movement education. Standing, seated, or observing — every option is built into the session, not an afterthought.</p>
+            <p>Gentle, practical movement designed for real workplaces. Learn techniques for posture, energy, and physical awareness that employees can use at their desks.</p>
+            <div class="chapter-body__meta">
+              <span class="chapter-meta-tag">Sean</span>
+              <span class="chapter-meta-tag">Stand / Sit / Observe</span>
+              <span class="chapter-meta-tag">Education included</span>
+            </div>
+          </div>
+        </div>
+        <div class="chapter-panel" id="chapter-3" role="tabpanel">
+          <div class="chapter-visual">
+            <span class="chapter-visual__num">03</span>
+            <span class="chapter-visual__label">Reflect</span>
+          </div>
+          <div class="chapter-body">
+            <h3>Reflect &amp; Reset</h3>
+            <p>A deliberate pause. Time for water, conversation, quiet reflection, or simply settling in before the next experience.</p>
+            <p>This break is designed into the program, not squeezed in. It gives the group time to process what they've experienced and prepare for the breathing session.</p>
+            <div class="chapter-body__meta">
+              <span class="chapter-meta-tag">Self-directed</span>
+              <span class="chapter-meta-tag">Refreshments</span>
+            </div>
+          </div>
+        </div>
+        <div class="chapter-panel" id="chapter-4" role="tabpanel">
+          <div class="chapter-visual">
+            <span class="chapter-visual__num">04</span>
+            <span class="chapter-visual__label">Breathwork</span>
+          </div>
+          <div class="chapter-body">
+            <h3>Breathe with Brandon</h3>
+            <p>Brandon leads guided breathing that works for everyone. Science-informed techniques presented as practical skills, not performance.</p>
+            <p>Accessible breathing exercises that reduce stress and improve focus. Employees learn techniques they can use in meetings, at their desks, or at home.</p>
+            <div class="chapter-body__meta">
+              <span class="chapter-meta-tag">Brandon</span>
+              <span class="chapter-meta-tag">Follow / Adapt / Rest</span>
+              <span class="chapter-meta-tag">Science-informed</span>
+            </div>
+          </div>
+        </div>
+        <div class="chapter-panel" id="chapter-5" role="tabpanel">
+          <div class="chapter-visual">
+            <span class="chapter-visual__num">05</span>
+            <span class="chapter-visual__label">Connect</span>
+          </div>
+          <div class="chapter-body">
+            <h3>Connect &amp; Close</h3>
+            <p>The group comes together. Share what stood out, ask questions, and leave with tools you can actually use next week.</p>
+            <p>A facilitated group conversation that builds connection across teams. Practical takeaways, not abstract theory. The experience ends with clarity and energy.</p>
+            <div class="chapter-body__meta">
+              <span class="chapter-meta-tag">Sean &amp; Brandon</span>
+              <span class="chapter-meta-tag">Group discussion</span>
+              <span class="chapter-meta-tag">Practical takeaways</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 04. MEET YOUR FACILITATORS ── -->
+<section class="sec facilitators" id="facilitators">
+  <div class="wrap">
+    <span class="eyebrow reveal">Your Facilitators</span>
+    <h2 class="sec-head reveal">Meet the humans behind the experience</h2>
+
+    <div class="facilitator reveal">
+      <div class="facilitator__img">
+        <picture>
+          <source srcset="assets/img/sean-duo.avif" type="image/avif">
+          <img src="assets/img/sean-duo.webp" alt="Sean — Movement facilitator" loading="lazy" width="541" height="676">
+        </picture>
+        <div class="facilitator__img__overlay">
+          <h3>Sean</h3>
+          <span>Movement Facilitator</span>
+        </div>
+      </div>
+      <div class="facilitator__body">
+        <p>Sean brings years of movement education to every session. His approach is inclusive, adaptive, and focused on what actually works for real people in real workplaces.</p>
+        <div class="facilitator__tags">
+          <span class="facilitator__tag">Guided Movement</span>
+          <span class="facilitator__tag">Posture Awareness</span>
+          <span class="facilitator__tag">Team Energy</span>
+          <span class="facilitator__tag">Accessible Exercise</span>
+        </div>
+        <a href="#chapter-2" class="facilitator__link">See Sean's session &rarr;</a>
+        <div class="facilitator__video" aria-label="Video introduction">
+          <div class="facilitator__video__play"><svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="facilitator facilitator--reverse reveal">
+      <div class="facilitator__img">
+        <picture>
+          <source srcset="assets/img/brandon-duo.avif" type="image/avif">
+          <img src="assets/img/brandon-duo.webp" alt="Brandon — Breathing facilitator" loading="lazy" width="541" height="676">
+        </picture>
+        <div class="facilitator__img__overlay">
+          <h3>Brandon</h3>
+          <span>Breathing Facilitator</span>
+        </div>
+      </div>
+      <div class="facilitator__body">
+        <p>Brandon combines breathing science with practical techniques anyone can use. His sessions create genuine space for focus, calm, and connection.</p>
+        <div class="facilitator__tags">
+          <span class="facilitator__tag">Breathwork</span>
+          <span class="facilitator__tag">Stress Management</span>
+          <span class="facilitator__tag">Mindful Practice</span>
+          <span class="facilitator__tag">Group Facilitation</span>
+        </div>
+        <a href="#chapter-4" class="facilitator__link">See Brandon's session &rarr;</a>
+        <div class="facilitator__video" aria-label="Video introduction">
+          <div class="facilitator__video__play"><svg viewBox="0 0 24 24"><polygon points="8,5 19,12 8,19"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 05. CHOOSE YOUR EXPERIENCE ── -->
+<section class="sec programs" id="programs">
+  <div class="wrap">
+    <span class="eyebrow reveal">Programs</span>
+    <h2 class="sec-head reveal">Choose the right format for your team</h2>
+    <div class="program-toggle" role="tablist">
+      <button class="program-toggle__btn is-active" role="tab" aria-selected="true" data-program="half">Half-Day</button>
+      <button class="program-toggle__btn" role="tab" aria-selected="false" data-program="full">Full-Day</button>
+    </div>
+    <div class="program-cards">
+      <div class="program-card program-card--flagship is-visible" id="program-half">
+        <span class="program-card__badge">Flagship</span>
+        <h3 class="program-card__title">The essential Workplace Wellness experience</h3>
+        <p class="program-card__desc">A focused half-day format that delivers the complete core experience.</p>
+        <div class="timeline">
+          <div class="timeline__item"><span class="timeline__time">20 min</span><span class="timeline__label">Welcome &amp; introduction</span></div>
+          <div class="timeline__item"><span class="timeline__time">40 min</span><span class="timeline__label">Guided movement with Sean</span></div>
+          <div class="timeline__item"><span class="timeline__time">15 min</span><span class="timeline__label">Break &amp; reflection</span></div>
+          <div class="timeline__item"><span class="timeline__time">40 min</span><span class="timeline__label">Guided breathing with Brandon</span></div>
+          <div class="timeline__item"><span class="timeline__time">30 min</span><span class="timeline__label">Group discussion</span></div>
+          <div class="timeline__item"><span class="timeline__time">15 min</span><span class="timeline__label">Closing &amp; takeaways</span></div>
+        </div>
+        <p class="program-card__ideal"><strong>Ideal for:</strong> Team gatherings, department events, company offsites</p>
+        <p class="program-card__includes"><strong>Includes:</strong> Two facilitators, all activities, participation choices, approved takeaways</p>
+      </div>
+      <div class="program-card" id="program-full">
+        <h3 class="program-card__title">A deeper exploration for teams with more time</h3>
+        <p class="program-card__desc">The expanded full-day format with additional sessions and deeper education.</p>
+        <div class="timeline">
+          <div class="timeline__item"><span class="timeline__time">20 min</span><span class="timeline__label">Welcome &amp; introduction</span></div>
+          <div class="timeline__item"><span class="timeline__time">45 min</span><span class="timeline__label">Movement session I</span></div>
+          <div class="timeline__item"><span class="timeline__time">15 min</span><span class="timeline__label">Break</span></div>
+          <div class="timeline__item"><span class="timeline__time">45 min</span><span class="timeline__label">Breathing workshop</span></div>
+          <div class="timeline__item"><span class="timeline__time">45 min</span><span class="timeline__label">Lunch</span></div>
+          <div class="timeline__item"><span class="timeline__time">40 min</span><span class="timeline__label">Movement session II</span></div>
+          <div class="timeline__item"><span class="timeline__time">40 min</span><span class="timeline__label">Education &amp; discussion</span></div>
+          <div class="timeline__item"><span class="timeline__time">30 min</span><span class="timeline__label">Closing ceremony</span></div>
+        </div>
+        <p class="program-card__ideal"><strong>Ideal for:</strong> Leadership retreats, annual gatherings, dedicated wellness days</p>
+        <p class="program-card__includes"><strong>Includes:</strong> Everything in half-day plus extended sessions, deeper education, additional group activities</p>
+      </div>
+    </div>
+    <div class="programs__cta reveal">
+      <a href="#builder" class="btn">Build your event &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── 06. BUILD YOUR EVENT ── -->
+<section class="sec builder" id="builder">
+  <div class="wrap">
+    <span class="eyebrow reveal">Plan Your Event</span>
+    <h2 class="sec-head reveal">Build your team experience</h2>
+    <div class="builder-grid">
+      <div class="builder-controls">
+        <div class="builder-group">
+          <label>Format</label>
+          <div class="builder-options">
+            <label class="builder-radio"><input type="radio" name="b-format" value="half" checked><span>Half-day</span></label>
+            <label class="builder-radio"><input type="radio" name="b-format" value="full"><span>Full-day</span></label>
+          </div>
+        </div>
+        <div class="builder-group">
+          <label>Event type</label>
+          <div class="builder-options">
+            <label class="builder-radio"><input type="radio" name="b-type" value="employee" checked><span>Employee gathering</span></label>
+            <label class="builder-radio"><input type="radio" name="b-type" value="leadership"><span>Leadership retreat</span></label>
+            <label class="builder-radio"><input type="radio" name="b-type" value="conference"><span>Company conference</span></label>
+          </div>
+        </div>
+        <div class="builder-group">
+          <label>Approximate attendees</label>
+          <div class="builder-options">
+            <label class="builder-radio"><input type="radio" name="b-size" value="small" checked><span>Under 50</span></label>
+            <label class="builder-radio"><input type="radio" name="b-size" value="medium"><span>50–150</span></label>
+            <label class="builder-radio"><input type="radio" name="b-size" value="large"><span>150+</span></label>
+          </div>
+        </div>
+        <div class="builder-group">
+          <label>Enhancements</label>
+          <div class="builder-options">
+            <label class="builder-check"><input type="checkbox" name="b-posture"><span>Posture support with Mike</span></label>
+            <label class="builder-check"><input type="checkbox" name="b-takeaway"><span>Post-event takeaway resources</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="builder-preview">
+        <div class="builder-preview__card" id="builder-card">
+          <p class="builder-preview__badge">Your proposed experience</p>
+          <h3 class="builder-preview__title" id="bp-title">Core half-day experience</h3>
+          <p class="builder-preview__meta" id="bp-meta">Employee gathering · Under 50 attendees</p>
+          <ul class="builder-preview__list" id="bp-list">
+            <li>Welcome and participation options</li>
+            <li>Guided movement and education with Sean</li>
+            <li>Pause and transition</li>
+            <li>Guided breathing with Brandon</li>
+            <li>Group closing and practical reflections</li>
+          </ul>
+          <p class="builder-preview__disclaimer">Illustrative outline only. Availability, pricing, and capacity are confirmed during planning.</p>
+          <div class="builder-actions">
+            <button class="btn btn--sm btn--ghost" id="builder-copy">Copy outline</button>
+            <a href="#plan" class="btn btn--sm btn--primary" id="builder-propose">Request this proposal &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 07. THE WELLNESS LAB ── -->
+<section class="sec lab" id="lab">
+  <div class="wrap">
+    <span class="eyebrow reveal">Explore</span>
+    <h2 class="sec-head reveal">Try a sample of what your team will experience</h2>
+    <div class="lab-grid">
+      <!-- Breathing exercise -->
+      <div class="lab-card reveal">
+        <div class="lab-card__icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4m0 4v0"/></svg>
+        </div>
+        <h3>Breathing Exercise</h3>
+        <div class="breath-ring" id="breath-ring">
+          <svg viewBox="0 0 160 160">
+            <circle class="breath-ring__circle" cx="80" cy="80" r="50" stroke-dasharray="314" stroke-dashoffset="0"/>
+          </svg>
+          <span class="breath-ring__text" id="breath-text">Ready</span>
+        </div>
+        <button class="breath-btn" id="breath-btn">Start</button>
+        <p style="font-size:.8125rem;color:var(--muted);margin-top:.5rem">4 seconds in, 4 seconds out</p>
+      </div>
+      <!-- Participation choices -->
+      <div class="lab-card reveal">
+        <div class="lab-card__icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Participation Choices</h3>
+        <p style="margin-bottom:.75rem">Every activity offers three paths:</p>
+        <div class="participation-cards" id="participation">
+          <div class="participation-opt is-active" data-opt="follow">
+            <div class="participation-opt__title">Follow along</div>
+            <div class="participation-opt__desc">Join the full guided experience. Your facilitator leads every step.</div>
+          </div>
+          <div class="participation-opt" data-opt="adapt">
+            <div class="participation-opt__title">Adapt to comfort</div>
+            <div class="participation-opt__desc">Modify any activity to suit your body and energy. Seated options always available.</div>
+          </div>
+          <div class="participation-opt" data-opt="observe">
+            <div class="participation-opt__title">Observe and rest</div>
+            <div class="participation-opt__desc">Watch, listen, or simply be present. No pressure to participate actively.</div>
+          </div>
+        </div>
+      </div>
+      <!-- What you'll learn -->
+      <div class="lab-card reveal">
+        <div class="lab-card__icon">
+          <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+        </div>
+        <h3>What You'll Learn</h3>
+        <p>Key takeaways from every session:</p>
+        <ul style="text-align:left;margin-top:.75rem;display:flex;flex-direction:column;gap:6px">
+          <li style="padding:8px 12px;background:var(--stone);border-radius:var(--r-sm);font-size:.9375rem">Movement fundamentals</li>
+          <li style="padding:8px 12px;background:var(--stone);border-radius:var(--r-sm);font-size:.9375rem">Breathing techniques</li>
+          <li style="padding:8px 12px;background:var(--stone);border-radius:var(--r-sm);font-size:.9375rem">Workplace awareness</li>
+          <li style="padding:8px 12px;background:var(--stone);border-radius:var(--r-sm);font-size:.9375rem">Team connection skills</li>
+        </ul>
+      </div>
+    </div>
+    <p class="lab__disclaimer reveal">General education demonstrations, not therapeutic exercises.</p>
+  </div>
+</section>
+
+<!-- ── 08. OPTIONAL ENHANCEMENTS ── -->
+<section class="sec enhancements">
+  <div class="wrap">
+    <span class="eyebrow reveal">Additions</span>
+    <h2 class="sec-head reveal">Enhance your experience</h2>
+    <div class="enhance-feature reveal">
+      <div class="enhance-feature__avatar">M</div>
+      <div>
+        <h3>Mike — Posture Support Specialist</h3>
+        <p>Mike offers practical posture guidance and individual desk-setup recommendations. Available as an optional addition to half-day and full-day formats.</p>
+      </div>
+    </div>
+    <p class="enhance-note reveal">Additional enhancements are available depending on event format and facilitator availability. Discuss options during planning.</p>
+  </div>
+</section>
+
+<!-- ── 09. THE PLANNER'S GUIDE ── -->
+<section class="sec planner">
+  <div class="wrap">
+    <span class="eyebrow reveal">For Event Planners</span>
+    <h2 class="sec-head reveal">Everything you need to know</h2>
+    <div class="accordion reveal">
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          Space &amp; Setup
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion__body"><div class="accordion__content">Open floor area for standing and seated movement, standard chairs, basic AV equipment for music playback, and water station access. The space should accommodate comfortable movement for your group size. SWG provides guidance on room setup during the planning phase.</div></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          Agenda &amp; Timing
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion__body"><div class="accordion__content">Flexible scheduling within half-day or full-day frameworks. Sessions can align with existing event agendas. Start times, break durations, and closing times are confirmed during planning to fit your schedule.</div></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          Accessibility &amp; Participation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion__body"><div class="accordion__content">All activities offer seated alternatives. Employees can observe without participating. Facilitators coordinate any specific accessibility requirements in advance. The program is designed so every participation level is equally valued.</div></div>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__trigger" aria-expanded="false">
+          Planning Responsibilities
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="accordion__body"><div class="accordion__content">SWG handles program design, facilitation, materials, and approved takeaway resources. Your team handles venue booking, attendee communication, catering, and on-site logistics coordination. We provide a planning checklist to make this straightforward.</div></div>
+      </div>
+    </div>
+    <a href="#" class="planner__download reveal">Download planning checklist &darr;</a>
+  </div>
+</section>
+
+<!-- ── 10. STORIES & SOCIAL ── -->
+<section class="sec stories" id="stories">
+  <div class="wrap">
+    <span class="eyebrow reveal">Insights &amp; Stories</span>
+    <h2 class="sec-head reveal">Discover more</h2>
+    <div class="stories-grid">
+      <article class="story-card reveal">
+        <div class="story-card__visual"><span class="story-card__type">Video</span></div>
+        <div class="story-card__body">
+          <p class="story-card__cat">Facilitator Education</p>
+          <h3>What should employees expect?</h3>
+          <p>A quick overview of what the day looks like from an employee's perspective.</p>
+        </div>
+      </article>
+      <article class="story-card reveal">
+        <div class="story-card__visual"><span class="story-card__type">Article</span></div>
+        <div class="story-card__body">
+          <p class="story-card__cat">Education</p>
+          <h3>The science behind workplace movement</h3>
+          <p>Why simple movement during the workday improves focus and reduces tension.</p>
+        </div>
+      </article>
+      <article class="story-card reveal">
+        <div class="story-card__visual"><span class="story-card__type">Video</span></div>
+        <div class="story-card__body">
+          <p class="story-card__cat">Accessibility</p>
+          <h3>Can you participate while seated?</h3>
+          <p>Brandon demonstrates how every breathing exercise works from a chair.</p>
+        </div>
+      </article>
+      <article class="story-card reveal">
+        <div class="story-card__visual"><span class="story-card__type">Guide</span></div>
+        <div class="story-card__body">
+          <p class="story-card__cat">For Planners</p>
+          <h3>Planning your first wellness event</h3>
+          <p>A step-by-step guide for HR teams organizing their first Workplace Wellness session.</p>
+        </div>
+      </article>
+      <article class="story-card reveal">
+        <div class="story-card__visual"><span class="story-card__type">Article</span></div>
+        <div class="story-card__body">
+          <p class="story-card__cat">Wellness Science</p>
+          <h3>Why breathing matters at work</h3>
+          <p>The research behind breathwork and its practical applications in professional settings.</p>
+        </div>
+      </article>
+      <article class="story-card reveal">
+        <div class="story-card__visual"><span class="story-card__type">Insight</span></div>
+        <div class="story-card__body">
+          <p class="story-card__cat">Impact</p>
+          <h3>What teams remember after the event</h3>
+          <p>The lasting impressions and behavior changes teams report weeks after participating.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── 11. PLANNING & FOLLOW-THROUGH ── -->
+<section class="sec process">
+  <div class="wrap">
+    <span class="eyebrow reveal">How It Works</span>
+    <h2 class="sec-head reveal">From inquiry to impact</h2>
+    <div class="process-steps reveal">
+      <div class="process-step">
+        <div class="process-step__num">1</div>
+        <h3>Discuss</h3>
+        <p>Share your goals, audience, and event details. We'll understand what you're looking for.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">2</div>
+        <h3>Design</h3>
+        <p>We create a customized proposal with format, agenda, facilitators, and logistics.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">3</div>
+        <h3>Deliver</h3>
+        <p>Your facilitators arrive prepared. The experience runs seamlessly.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__num">4</div>
+        <h3>Follow Up</h3>
+        <p>Approved resources, feedback collection, and planning for future events.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 12. FINAL INQUIRY ── -->
+<section class="sec sec--dark inquiry" id="plan">
+  <div class="wrap">
+    <span class="eyebrow">Get Started</span>
+    <h2 class="sec-head">Let's plan your experience</h2>
+    <p class="sec-sub">Tell us about your team and we'll create a customized proposal.</p>
+    <form class="inquiry-form" id="inquiry-form" novalidate>
+      <div class="form-row">
+        <label for="f-name">Name *</label>
+        <input type="text" id="f-name" name="name" required placeholder="Your name">
+      </div>
+      <div class="form-row">
+        <label for="f-company">Company *</label>
+        <input type="text" id="f-company" name="company" required placeholder="Company name">
+      </div>
+      <div class="form-row">
+        <label for="f-email">Work email *</label>
+        <input type="email" id="f-email" name="email" required placeholder="you@company.com">
+      </div>
+      <div class="form-row">
+        <label for="f-event">Event type *</label>
+        <select id="f-event" name="event_type" required>
+          <option value="">Select event type</option>
+          <option value="employee">Employee gathering</option>
+          <option value="leadership">Leadership retreat</option>
+          <option value="conference">Company conference</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="f-size">Estimated attendees *</label>
+        <select id="f-size" name="attendees" required>
+          <option value="">Select approximate size</option>
+          <option value="under50">Under 50</option>
+          <option value="50-150">50–150</option>
+          <option value="150+">150+</option>
+          <option value="unsure">Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-toggle" id="form-toggle">
+        <button type="button" class="form-toggle__btn" id="form-toggle-btn">
+          Add more detail
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="form-toggle__body">
+          <div class="form-toggle__inner">
+            <div class="form-row">
+              <label for="f-dates">Preferred dates</label>
+              <input type="text" id="f-dates" name="dates" placeholder="e.g. March 2027, Q2, flexible">
+            </div>
+            <div class="form-row">
+              <label for="f-location">Location / city</label>
+              <input type="text" id="f-location" name="location" placeholder="City or venue name">
+            </div>
+            <div class="form-row">
+              <label for="f-notes">Goals or notes</label>
+              <textarea id="f-notes" name="notes" placeholder="Tell us about your team, goals, or any questions"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn--primary" style="width:100%;margin-top:.5rem">Request a Proposal</button>
+    </form>
+    <p class="inquiry__note">We typically respond within two business days. Your information is kept confidential.</p>
+    <div class="form-success" id="form-success">
+      <h3>Thank you!</h3>
+      <p>We've received your inquiry and will be in touch within two business days to discuss your event.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-w" aria-hidden="true">
+      <svg viewBox="0 0 120 80">
+        <path class="mark__echo" d="M8 20C16 20 18 68 30 68S44 28 56 28S68 68 80 68S92 20 104 20" pathLength="1" fill="none"/>
+        <path class="mark__main" d="M8 12C16 12 18 62 30 62S44 22 56 22S68 62 80 62S92 12 104 12" pathLength="1" fill="none"/>
+      </svg>
+    </div>
+    <p class="footer-brand">Workplace Wellness by SWG</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#experience">Experience</a>
+      <a href="#programs">Programs</a>
+      <a href="#facilitators">Facilitators</a>
+      <a href="#lab">Resources</a>
+      <a href="#plan">Plan Your Event</a>
+    </nav>
+    <p class="footer-preview"><a href="../privacy.html" style="color:inherit">Privacy policy</a></p>
+    <p class="footer-copy">&copy; 2026 Support Wellness Global. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ── Scripts ── -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/js/v5.js"></script>
+<script src="../version-bar.js"></script>
+</body>
+</html>
