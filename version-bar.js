@@ -16,7 +16,8 @@
     { dir: 'v5', label: 'v5 — Cinematic' },
     { dir: 'v6', label: 'v6 — Human Experience' },
     { dir: 'v7', label: 'v7 — Platform' },
-    { dir: 'v8', label: 'v8 — Editorial Premium' }
+    { dir: 'v8', label: 'v8 — Editorial Premium' },
+    { dir: 'v9', label: 'v9 — Vitruvian' }
   ];
 
   var SCHEMES = {
