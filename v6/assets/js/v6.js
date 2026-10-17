@@ -244,6 +244,33 @@
     });
   }
 
+  /* ── Program toggle (half-day / full-day) ── */
+  document.querySelectorAll('.program-toggle-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.getAttribute('data-prog');
+      document.querySelectorAll('.program-toggle-btn').forEach(function (b) {
+        b.classList.remove('is-active');
+        b.classList.remove('btn-primary');
+        b.classList.add('btn-outline');
+        b.style.color = 'var(--ink)';
+        b.style.borderColor = 'var(--hair)';
+      });
+      btn.classList.add('is-active', 'btn-primary');
+      btn.classList.remove('btn-outline');
+      btn.style.color = '';
+      btn.style.borderColor = '';
+      document.querySelectorAll('.program-panel').forEach(function (p) {
+        p.style.display = 'none';
+        p.classList.remove('is-active');
+      });
+      var panel = document.getElementById('prog-' + target);
+      if (panel) {
+        panel.style.display = '';
+        panel.classList.add('is-active');
+      }
+    });
+  });
+
   /* ── Accordion ── */
   document.querySelectorAll('.acc-btn').forEach(function (btn) {
     btn.addEventListener('click', function () {

@@ -36,42 +36,23 @@
   <div class="progress" aria-hidden="true"><i data-progress></i></div>
 </header>
 <main id="main">
-  <section class="hero" id="top" aria-labelledby="hero-title">
-    <div class="wrap hero__grid">
-      <div class="hero__copy">
-        <p class="eyebrow hero-in" style="--d:0">Workplace Wellness by SWG</p>
-        <h1 class="hero__title" id="hero-title">A wellness session <em>everyone</em> can join.</h1>
-        <p class="hero__lede hero-in" style="--d:2">Facilitated, hands-on experiences for employee events, retreats and company gatherings. Practical wellness education, with every person choosing how they take part.</p>
-        <div class="hero__actions hero-in" style="--d:3">
-          <a class="btn btn--accent btn--lg" href="#plan"><span>Plan your team experience</span><svg class="arr" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3.5 10h12M11 5.5 15.5 10 11 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-          <a class="btn btn--ghost btn--lg" href="#experience"><span>See what people do</span></a>
-        </div>
-        <ul class="hero__verbs hero-in" style="--d:4" aria-label="What the experience includes"><li>Move</li><li>Breathe</li><li>Learn</li><li>Connect</li></ul>
+  <section class="hero v2-hero" id="top" aria-labelledby="hero-title">
+    <div class="v2-hero__visual">
+      <picture>
+        <source type="image/avif" srcset="assets/img/sean-duo-sm.avif 360w, assets/img/sean-duo.avif 541w" sizes="100vw">
+        <img src="assets/img/sean-duo.webp" srcset="assets/img/sean-duo-sm.webp 360w, assets/img/sean-duo.webp 541w" sizes="100vw" width="541" height="722" alt="Sean, facilitator, leading a session." fetchpriority="high" decoding="async">
+      </picture>
+      <div class="v2-hero__gradient"></div>
+    </div>
+    <div class="wrap v2-hero__content">
+      <p class="eyebrow hero-in" style="--d:0">Workplace Wellness by SWG</p>
+      <h1 class="v2-hero__title" id="hero-title">Designed for people who would rather <em>do something</em> than hear about it.</h1>
+      <p class="v2-hero__lede hero-in" style="--d:2">Two facilitators. Guided movement, breathing, and conversation. An experience your team takes part in — not sits through.</p>
+      <div class="hero__actions hero-in" style="--d:3">
+        <a class="btn btn--accent btn--lg" href="#plan"><span>Plan your team experience</span><svg class="arr" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3.5 10h12M11 5.5 15.5 10 11 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn--ghost btn--lg" href="#experience"><span>See what people do</span></a>
       </div>
-      <figure class="art" data-art>
-        <div class="art__stage" data-stage>
-          <div class="art__rings"><div class="art__breath"><svg viewBox="0 0 600 600" aria-hidden="true" focusable="false"><circle cx="300" cy="300" r="296" /><circle cx="300" cy="300" r="226" /><circle cx="300" cy="300" r="156" /></svg></div></div>
-          <div class="art__plate"></div>
-          <div class="art__a"><div class="art__frame"></div><div class="art__img"><picture><source type="image/avif" srcset="assets/img/sean-duo-sm.avif 360w, assets/img/sean-duo.avif 541w" sizes="(min-width:1024px) 31vw, 46vw"><img src="assets/img/sean-duo.webp" srcset="assets/img/sean-duo-sm.webp 360w, assets/img/sean-duo.webp 541w" sizes="(min-width:1024px) 31vw, 46vw" width="541" height="722" alt="Portrait of Sean, facilitator." fetchpriority="high" decoding="async"></picture></div></div>
-          <div class="art__b"><div class="art__img"><picture><source type="image/avif" srcset="assets/img/brandon-duo-sm.avif 360w, assets/img/brandon-duo.avif 541w" sizes="(min-width:1024px) 24vw, 36vw"><img src="assets/img/brandon-duo.webp" srcset="assets/img/brandon-duo-sm.webp 360w, assets/img/brandon-duo.webp 541w" sizes="(min-width:1024px) 24vw, 36vw" width="541" height="722" alt="Portrait of Brandon, facilitator." decoding="async"></picture></div></div>
-          <i class="art__dot"></i>
-        </div>
-        <figcaption class="art__cap"><span><b>Sean</b> Session 1</span><span><b>Brandon</b> Session 2</span></figcaption>
-      </figure>
-      <div class="dock" role="group" aria-labelledby="breath-title">
-        <div class="dock__ring"><div class="ring" aria-hidden="true"><i class="ring__o3"></i><i class="ring__o2"></i><i class="ring__core"></i></div><p class="dock__cue" aria-hidden="true" data-cue>Breathe in for 4, out for 6</p></div>
-        <div class="dock__ctl">
-          <h2 class="dock__title" id="breath-title">Choose your <em>pace</em></h2>
-          <p class="dock__help" id="seg-help">Pick one. The breathing ring and the page’s motion follow your choice. <b>Step out</b> holds everything still.</p>
-          <fieldset class="seg" aria-describedby="seg-help"><legend class="sr-only">Pace for this page</legend>
-            <label class="seg__opt"><input type="radio" name="pace" value="join" data-pace-radio checked><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Join in</span></span></label>
-            <label class="seg__opt"><input type="radio" name="pace" value="adapt" data-pace-radio><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Adapt</span></span></label>
-            <label class="seg__opt"><input type="radio" name="pace" value="observe" data-pace-radio><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Observe</span></span></label>
-            <label class="seg__opt"><input type="radio" name="pace" value="out" data-pace-radio><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Step out</span></span></label>
-          </fieldset>
-          <p class="dock__status" role="status" aria-live="polite" data-pace-desc>Join in: follow along with the group. The ring breathes in for 4 seconds and out for 6.</p>
-        </div>
-      </div>
+      <ul class="hero__verbs hero-in" style="--d:4" aria-label="What the experience includes"><li>Move</li><li>Breathe</li><li>Learn</li><li>Connect</li></ul>
     </div>
     <div class="wrap"><p class="hero__strip"><span>Made for</span> employee events <i aria-hidden="true">·</i> team retreats <i aria-hidden="true">·</i> company gatherings <i aria-hidden="true">·</i> annual meetings</p></div>
   </section>
@@ -99,6 +80,21 @@
       <li class="pcard reveal" style="--i:2" data-pcard="observe"><svg class="pico" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><circle cx="14" cy="14" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="pcard__txt"><h3>Observe</h3><p>Watch and listen. That still counts.</p><p class="pcard__tag">Page motion: minimal</p></div><button class="btn btn--ghost btn--sm" type="button" data-pace-set="observe" aria-pressed="false">Use this pace<span class="sr-only"> on this page: Observe</span></button></li>
       <li class="pcard reveal" style="--i:3" data-pcard="out"><svg class="pico" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><circle cx="14" cy="14" r="8.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3.6"/></svg><div class="pcard__txt"><h3>Step out</h3><p>Take a break whenever you like.</p><p class="pcard__tag">Page motion: none</p></div><button class="btn btn--ghost btn--sm" type="button" data-pace-set="out" aria-pressed="false">Use this pace<span class="sr-only"> on this page: Step out</span></button></li>
     </ul>
+    <!-- Dock: breathing controls (moved from hero) -->
+    <div class="dock" role="group" aria-labelledby="breath-title">
+      <div class="dock__ring"><div class="ring" aria-hidden="true"><i class="ring__o3"></i><i class="ring__o2"></i><i class="ring__core"></i></div><p class="dock__cue" aria-hidden="true" data-cue>Breathe in for 4, out for 6</p></div>
+      <div class="dock__ctl">
+        <h2 class="dock__title" id="breath-title">Choose your <em>pace</em></h2>
+        <p class="dock__help" id="seg-help">Pick one. The breathing ring and the page's motion follow your choice. <b>Step out</b> holds everything still.</p>
+        <fieldset class="seg" aria-describedby="seg-help"><legend class="sr-only">Pace for this page</legend>
+          <label class="seg__opt"><input type="radio" name="pace" value="join" data-pace-radio checked><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Join in</span></span></label>
+          <label class="seg__opt"><input type="radio" name="pace" value="adapt" data-pace-radio><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Adapt</span></span></label>
+          <label class="seg__opt"><input type="radio" name="pace" value="observe" data-pace-radio><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Observe</span></span></label>
+          <label class="seg__opt"><input type="radio" name="pace" value="out" data-pace-radio><span class="seg__face"><span class="seg__dot" aria-hidden="true"></span><span>Step out</span></span></label>
+        </fieldset>
+        <p class="dock__status" role="status" aria-live="polite" data-pace-desc>Join in: follow along with the group. The ring breathes in for 4 seconds and out for 6.</p>
+      </div>
+    </div>
   </div></section>
 
   <section class="section s-program" id="program" aria-labelledby="prog-title"><div class="wrap">

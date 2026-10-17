@@ -114,14 +114,43 @@
           <li><strong>All participation levels</strong></li>
           <li><strong>Practical takeaways</strong></li>
         </ul>
-        <h3 class="flagship-split__agenda-title">Sample half-day agenda</h3>
-        <ol class="timeline">
-          <li><span class="timeline__time">20 min</span><span class="timeline__label">Welcome &amp; Participation Choices</span></li>
-          <li><span class="timeline__time">40 min</span><span class="timeline__label">Guided Movement with Sean</span></li>
-          <li><span class="timeline__time">15 min</span><span class="timeline__label">Break &amp; Reflection</span></li>
-          <li><span class="timeline__time">40 min</span><span class="timeline__label">Guided Breathing with Brandon</span></li>
-          <li><span class="timeline__time">30 min</span><span class="timeline__label">Group Discussion &amp; Closing</span></li>
-        </ol>
+        <div style="display:flex;gap:.5rem;margin-bottom:1.25rem">
+          <button class="btn btn--clay program-toggle-btn is-active" data-prog="half" type="button" style="font-size:.8125rem;padding:.4rem 1rem">Half-day</button>
+          <button class="btn btn--outline program-toggle-btn" data-prog="full" type="button" style="font-size:.8125rem;padding:.4rem 1rem">Full-day</button>
+        </div>
+        <div class="program-panel is-active" id="prog-half">
+          <h3 class="flagship-split__agenda-title">Sample half-day agenda</h3>
+          <ol class="timeline">
+            <li><span class="timeline__time">20 min</span><span class="timeline__label">Welcome &amp; Participation Choices</span></li>
+            <li><span class="timeline__time">40 min</span><span class="timeline__label">Guided Movement with Sean</span></li>
+            <li><span class="timeline__time">15 min</span><span class="timeline__label">Break &amp; Reflection</span></li>
+            <li><span class="timeline__time">40 min</span><span class="timeline__label">Guided Breathing with Brandon</span></li>
+            <li><span class="timeline__time">30 min</span><span class="timeline__label">Group Discussion &amp; Closing</span></li>
+          </ol>
+        </div>
+        <div class="program-panel" id="prog-full" style="display:none">
+          <h3 class="flagship-split__agenda-title">Sample full-day agenda</h3>
+          <ol class="timeline">
+            <li><span class="timeline__time">20 min</span><span class="timeline__label">Welcome &amp; Participation Choices</span></li>
+            <li><span class="timeline__time">50 min</span><span class="timeline__label">Guided Movement with Sean</span></li>
+            <li><span class="timeline__time">15 min</span><span class="timeline__label">Break</span></li>
+            <li><span class="timeline__time">45 min</span><span class="timeline__label">Practical Wellness Education</span></li>
+            <li><span class="timeline__time">60 min</span><span class="timeline__label">Lunch &amp; Informal Connection</span></li>
+            <li><span class="timeline__time">50 min</span><span class="timeline__label">Guided Breathing with Brandon</span></li>
+            <li><span class="timeline__time">15 min</span><span class="timeline__label">Break &amp; Reflection</span></li>
+            <li><span class="timeline__time">40 min</span><span class="timeline__label">Team Activity &amp; Open Practice</span></li>
+            <li><span class="timeline__time">30 min</span><span class="timeline__label">Group Discussion &amp; Closing</span></li>
+          </ol>
+        </div>
+        <div style="margin:1.5rem 0;padding:1rem 1.25rem;background:var(--tint,#EDF4F8);border-radius:.75rem">
+          <h4 style="font-size:.875rem;font-weight:700;margin:0 0 .5rem">Who it suits</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:.875rem;line-height:1.6;color:var(--muted,#3A4E5A)">
+            <li>• Teams of any size (20–500+)</li>
+            <li>• All fitness levels — seated and standing options throughout</li>
+            <li>• Employee gatherings, leadership retreats, conferences</li>
+            <li>• Organizations looking for something beyond the typical wellness talk</li>
+          </ul>
+        </div>
         <a href="#plan" class="btn btn--clay">Plan this experience →</a>
       </div>
       <div class="flagship-split__visual">
@@ -172,6 +201,7 @@
             <span>Guided Movement</span><span>Posture Awareness</span><span>Practical Education</span><span>Team Energy</span>
           </div>
           <p class="expert-card__programs"><strong>Programs:</strong> Flagship Experience, Movement &amp; Posture</p>
+          <p style="font-size:.8125rem;color:var(--muted);margin-top:.75rem"><strong>Bio:</strong> pending approval · <strong>Credentials &amp; title:</strong> pending approval</p>
         </div>
       </article>
       <!-- Brandon -->
@@ -197,6 +227,7 @@
             <span>Breathwork</span><span>Stress Management</span><span>Mindful Practice</span><span>Group Facilitation</span>
           </div>
           <p class="expert-card__programs"><strong>Programs:</strong> Flagship Experience, Breathing &amp; Mindful Practice</p>
+          <p style="font-size:.8125rem;color:var(--muted);margin-top:.75rem"><strong>Bio:</strong> pending approval · <strong>Credentials &amp; title:</strong> pending approval</p>
         </div>
       </article>
       <!-- Mike -->
@@ -213,6 +244,7 @@
             <span>Posture Assessment</span><span>Desk Ergonomics</span><span>Movement Support</span>
           </div>
           <p class="expert-card__programs"><strong>Programs:</strong> Movement &amp; Posture (enhancement)</p>
+          <p style="font-size:.8125rem;color:var(--muted);margin-top:.75rem"><strong>Bio:</strong> pending approval · <strong>Credentials &amp; title:</strong> pending approval</p>
         </div>
       </article>
     </div>
@@ -399,14 +431,14 @@
       </div>
     </div>
     <div class="faq" id="faq">
-      <h3 class="faq__heading">Common questions</h3>
+      <h3 class="faq__heading" style="color:var(--plum)">Questions from event planners</h3>
       <details class="faq__item">
         <summary>What do we need to provide?</summary>
-        <p>An open floor area for standing and seated movement, standard chairs, basic AV for music, a water station, and attendee communication before the event.</p>
+        <p>An open floor area for standing and seated movement, standard chairs, basic AV for music, a water station, and attendee communication before the event. Facilitators coordinate any specific requirements in advance.</p>
       </details>
       <details class="faq__item">
-        <summary>How accessible are the programs?</summary>
-        <p>All activities offer seated alternatives. Employees can observe without participating. Facilitators coordinate any specific accessibility requirements in advance.</p>
+        <summary>What's included in the price?</summary>
+        <p>Facilitator time, preparation, pre-event coordination, approved materials, and follow-up resources. Pricing varies by program, duration, and number of facilitators. We'll provide a transparent quote after learning about your event.</p>
       </details>
       <details class="faq__item">
         <summary>Can we combine multiple specialists?</summary>
@@ -416,6 +448,49 @@
         <summary>What about multi-day or repeat programs?</summary>
         <p>Extended formats are available for leadership retreats and ongoing wellness partnerships. Discuss your goals during planning.</p>
       </details>
+      <details class="faq__item">
+        <summary>Do you handle large groups?</summary>
+        <p>Yes. Programs scale from 20 to 500+ attendees. Larger groups may use breakout sessions, multiple facilitators, or staggered scheduling — we'll design the format during planning.</p>
+      </details>
+
+      <h3 class="faq__heading" style="color:var(--plum);margin-top:2.5rem">Questions from attendees</h3>
+      <details class="faq__item">
+        <summary>What if I can't do certain movements?</summary>
+        <p>Every activity offers standing, seated, and observing options. You choose your level throughout the session. Facilitators introduce all options at the start — no one is singled out.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Do I need to share personal information?</summary>
+        <p>No. Group discussions are optional, and no one is required to share anything personal. Participation is always your choice.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Is this a medical program?</summary>
+        <p>No. This is an educational wellness experience, not a medical or therapeutic program. Activities are guided movement, breathing education, and practical wellness concepts. Facilitators are not providing medical advice, diagnosis, or treatment. If you have specific health concerns, consult your healthcare provider before participating.</p>
+      </details>
+      <details class="faq__item">
+        <summary>What should I wear?</summary>
+        <p>Whatever is comfortable and allows some movement. Business casual works fine — no need to change into workout clothes.</p>
+      </details>
+      <details class="faq__item">
+        <summary>What do I take away from the event?</summary>
+        <p>Practical techniques for movement and breathing you can use at your desk and throughout the day, plus approved digital resources shared after the event.</p>
+      </details>
+    </div>
+
+    <!-- The short version -->
+    <div style="max-width:640px;margin:2.5rem auto 0;padding:1.5rem 1.75rem;background:var(--stone,#E8EDEC);border-radius:.75rem">
+      <h3 style="font-size:1rem;font-weight:700;margin:0 0 .75rem">The short version</h3>
+      <ul style="list-style:none;padding:0;margin:0;font-size:.9375rem;line-height:1.7;color:var(--muted,#3A4E5A)">
+        <li>• We bring wellness experts to your workplace event.</li>
+        <li>• Everyone participates at their own level — seated, standing, or observing.</li>
+        <li>• It's educational, not medical. No diagnosis, no therapy, no prescriptions.</li>
+        <li>• You provide the space and people. We coordinate the rest.</li>
+      </ul>
+    </div>
+
+    <!-- In exploration -->
+    <div style="max-width:640px;margin:1.5rem auto 0;padding:1.25rem 1.75rem;border:1px dashed var(--hair,#D0D8D6);border-radius:.75rem">
+      <h4 style="font-size:.875rem;font-weight:700;margin:0 0 .5rem;color:var(--plum)">In exploration</h4>
+      <p style="font-size:.875rem;line-height:1.6;color:var(--muted,#3A4E5A);margin:0">We're exploring repeat-visit formats, multi-day programs, and an employee benefits directory so individuals can continue working with facilitators after corporate events. These are not available yet — ask during planning if you're interested.</p>
     </div>
   </div>
 </section>

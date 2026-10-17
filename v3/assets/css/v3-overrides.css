@@ -1,12 +1,29 @@
 /* v3 overrides — buyer-first redesign */
 
-/* v2 design improvements */
 :root{
   --muted:#3A3F4C;
   --copper:#B87333;
   --copper-soft:#D4956B;
   --sec:clamp(3rem,6vw,6rem);
 }
+
+/* ── v3 Typographic Hero ── */
+.v3-hero{position:relative;min-height:min(85vh,760px);display:flex;flex-direction:column;justify-content:center;overflow:hidden;text-align:center;padding-top:clamp(5rem,12vw,9rem);padding-bottom:clamp(2rem,5vw,4rem)}
+.v3-hero .hero__grid{display:none}
+.v3-hero__watermark{position:absolute;top:50%;left:50%;width:min(90vw,800px);transform:translate(-50%,-50%);pointer-events:none;color:var(--plum)}
+.v3-hero__content{position:relative;z-index:2;max-width:48rem;margin:0 auto}
+.v3-hero__title{font-size:clamp(2.25rem,1.5rem + 4.5vw,4.25rem);font-weight:600;letter-spacing:-.045em;line-height:1.05;margin-bottom:1.25rem}
+.v3-hero__title em{font-style:italic;color:var(--plum)}
+.v3-hero__subtitle{font-size:clamp(1.0625rem,.9rem + .8vw,1.375rem);color:var(--muted);line-height:1.6;max-width:32rem;margin:0 auto 2rem}
+.v3-hero .hero__actions{justify-content:center}
+.v3-hero__trust{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:clamp(2.5rem,5vw,4rem);padding-top:clamp(1.5rem,3vw,2.5rem);border-top:1px solid var(--hair)}
+.v3-trust__item{display:flex;flex-direction:column;align-items:center;gap:.25rem}
+.v3-trust__num{font-size:clamp(1.5rem,1rem + 2vw,2.25rem);font-weight:700;letter-spacing:-.03em;color:var(--plum);line-height:1.1}
+.v3-trust__label{font-size:.75rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+@media(max-width:480px){
+  .v3-hero__trust{grid-template-columns:repeat(2,1fr);gap:.75rem}
+}
+.v3-hero .hero__strip{position:relative;z-index:2}
 
 /* Copper accents on key elements */
 .eyebrow{color:var(--copper)}

@@ -77,6 +77,28 @@
     window.addEventListener('load', initGSAP);
   }
 
+  /* ── Program toggle (half-day / full-day) ── */
+  document.querySelectorAll('.program-toggle-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.getAttribute('data-prog');
+      document.querySelectorAll('.program-toggle-btn').forEach(function (b) {
+        b.classList.remove('is-active', 'btn--clay');
+        b.classList.add('btn--outline');
+      });
+      btn.classList.add('is-active', 'btn--clay');
+      btn.classList.remove('btn--outline');
+      document.querySelectorAll('.program-panel').forEach(function (p) {
+        p.style.display = 'none';
+        p.classList.remove('is-active');
+      });
+      var panel = document.getElementById('prog-' + target);
+      if (panel) {
+        panel.style.display = '';
+        panel.classList.add('is-active');
+      }
+    });
+  });
+
   /* ── Chapter tabs ─────────────────────────── */
 
   var chapterTabs = document.querySelectorAll('.chapters__tab');
