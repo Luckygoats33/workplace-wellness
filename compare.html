@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workplace Wellness — Version Comparison</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+:root{--bg:#FBFAF8;--ink:#1B2030;--muted:#505766;--plum:#5A2D52;--stone:#F3F0EB;--hair:#E3DED6;--copper:#B87333}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem}
+.hub{max-width:900px;width:100%;text-align:center}
+h1{font-size:clamp(2rem,1.2rem + 3vw,3.5rem);font-weight:600;letter-spacing:-.04em;line-height:1.05;margin-bottom:.5rem}
+h1 em{font-style:italic;color:var(--plum)}
+.sub{color:var(--muted);margin-bottom:3rem;font-size:1.125rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;text-align:left}
+.card{background:#fff;border:1.5px solid var(--hair);border-radius:20px;padding:2rem;text-decoration:none;color:inherit;transition:transform .4s cubic-bezier(.22,.7,.2,1),box-shadow .35s,border-color .25s}
+.card:hover{transform:translateY(-6px);box-shadow:0 30px 50px -30px rgba(63,29,57,.4);border-color:var(--plum)}
+.card__tag{font-size:.75rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--plum);margin-bottom:.75rem}
+.card h2{font-size:1.5rem;font-weight:600;letter-spacing:-.03em;margin-bottom:.5rem}
+.card p{color:var(--muted);font-size:.9375rem;line-height:1.5}
+.card--v2 .card__tag{color:var(--copper)}
+.card--v3 .card__tag{color:var(--ink)}
+.foot{margin-top:3rem;font-size:.875rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="hub">
+  <h1>Workplace Wellness <em>versions</em></h1>
+  <p class="sub">Three design directions to compare. Each page has a switcher bar at the top.</p>
+  <div class="cards">
+    <a class="card" href="d/">
+      <p class="card__tag">v1</p>
+      <h2>Original</h2>
+      <p>The current flagship design with breathing interaction, participation choices, and the full program layout.</p>
+    </a>
+    <a class="card card--v2" href="e/">
+      <p class="card__tag">v2</p>
+      <h2>Design fixes</h2>
+      <p>Tighter spacing, improved contrast, copper secondary accent, better CTAs. Same structure, refined execution.</p>
+    </a>
+    <a class="card card--v3" href="f/">
+      <p class="card__tag">v3</p>
+      <h2>Buyer-first redesign</h2>
+      <p>Restructured for corporate buyers. New section order, venue logistics, post-event takeaways, editorial layout.</p>
+    </a>
+  </div>
+  <p class="foot">Design preview only. Nothing on these pages is live.</p>
+</div>
+</body>
+</html>
