@@ -61,3 +61,9 @@ The facilitator photos in `d/` are **PLACEHOLDERS pending consent and licences.*
 - No named employers.
 - No testimonials.
 - First names only.
+
+## Live preview (noindex)
+
+https://luckygoats33.github.io/workplace-wellness/ (flagship D at root; `/baseline/`, `/a/`, `/b/`, `/c/` for the other directions). Every page carries `<meta name="robots" content="noindex,nofollow">`; Pages cannot set X-Robots-Tag headers, and robots.txt is only authoritative at a host root.
+
+The `gh-pages` branch is an orphan branch built with `python3 tools/build_pages.py OUTDIR`, which copies `d/` (minus `photos/` and `tools/`), `a/ b/ c/`, and the baseline into `/baseline/`, rewords the preview bar, and adds `.nojekyll`. Screenshots, tools and photo originals stay on `main` only.
