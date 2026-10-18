@@ -18,7 +18,8 @@
     { dir: 'v7', label: 'v7 — Platform' },
     { dir: 'v8', label: 'v8 — Editorial Premium' },
     { dir: 'v9', label: 'v9 — Vitruvian' },
-    { dir: 'v10', label: 'v10 — Glassmorphism' }
+    { dir: 'v10', label: 'v10 — Glassmorphism' },
+    { dir: 'v11', label: 'v11 — Celestial Renewal' }
   ];
 
   var SCHEMES = {
@@ -126,7 +127,7 @@
   var pick = document.getElementById('scheme-picker');
 
   /* Disable color schemes for dark-base versions (v10+) */
-  var darkVersions = ['v10'];
+  var darkVersions = ['v10', 'v11'];
   if (darkVersions.indexOf(currentDir) !== -1) {
     pick.disabled = true;
     pick.title = 'Color schemes are disabled for this dark-theme version';
