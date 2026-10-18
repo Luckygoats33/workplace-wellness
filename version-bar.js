@@ -17,7 +17,8 @@
     { dir: 'v6', label: 'v6 — Human Experience' },
     { dir: 'v7', label: 'v7 — Platform' },
     { dir: 'v8', label: 'v8 — Editorial Premium' },
-    { dir: 'v9', label: 'v9 — Vitruvian' }
+    { dir: 'v9', label: 'v9 — Vitruvian' },
+    { dir: 'v10', label: 'v10 — Glassmorphism' }
   ];
 
   var SCHEMES = {
@@ -124,6 +125,15 @@
 
   var pick = document.getElementById('scheme-picker');
 
+  /* Disable color schemes for dark-base versions (v10+) */
+  var darkVersions = ['v10'];
+  if (darkVersions.indexOf(currentDir) !== -1) {
+    pick.disabled = true;
+    pick.title = 'Color schemes are disabled for this dark-theme version';
+    pick.style.opacity = '0.4';
+    pick.style.cursor = 'not-allowed';
+  }
+
   function applyScheme(v) {
     var r = document.documentElement.style;
     if (!v) {
@@ -153,7 +163,9 @@
 
   try {
     var saved = localStorage.getItem('ww-scheme');
-    if (saved && SCHEMES[saved]) { pick.value = saved; applyScheme(saved); }
+    if (saved && SCHEMES[saved] && darkVersions.indexOf(currentDir) === -1) {
+      pick.value = saved; applyScheme(saved);
+    }
   } catch (e) {}
 
   pick.addEventListener('change', function () {
