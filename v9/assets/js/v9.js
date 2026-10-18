@@ -74,14 +74,13 @@
     gsap.registerPlugin(ScrollTrigger);
 
     document.querySelectorAll('.sec').forEach(function (sec) {
-      gsap.from(sec.querySelectorAll('[data-reveal]'), {
+      gsap.to(sec.querySelectorAll('[data-reveal]'), {
         scrollTrigger: { trigger: sec, start: 'top 82%', toggleActions: 'play none none none' },
-        opacity: 0,
-        y: 28,
+        opacity: 1,
+        y: 0,
         duration: 0.7,
         stagger: 0.1,
-        ease: 'power2.out',
-        clearProps: 'all'
+        ease: 'power2.out'
       });
     });
 
