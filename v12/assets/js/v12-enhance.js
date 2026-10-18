@@ -6,14 +6,7 @@
   if (typeof THREE === 'undefined' || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
   gsap.registerPlugin(ScrollTrigger);
 
-  /* ── Lenis smooth scroll ───────────────────── */
-  var lenis;
-  if (typeof Lenis !== 'undefined') {
-    lenis = new Lenis({ duration: 1.2, easing: function (t) { return Math.min(1, 1.001 - Math.pow(2, -10 * t)); }, touchMultiplier: 1.5 });
-    lenis.on('scroll', ScrollTrigger.update);
-    gsap.ticker.add(function (time) { lenis.raf(time * 1000); });
-    gsap.ticker.lagSmoothing(0);
-  }
+  /* ── No Lenis — native scroll + GSAP ScrollTrigger ── */
 
   /* ── Three.js hero scene ───────────────────── */
   var canvas = document.getElementById('hero-gl');

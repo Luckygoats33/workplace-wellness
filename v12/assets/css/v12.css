@@ -55,10 +55,6 @@ em{font-family:'Source Serif',Georgia,serif;font-style:italic;color:var(--accent
 .skip-link{position:fixed;top:-4rem;left:1rem;z-index:9999;padding:.75rem 1.5rem;background:var(--accent);color:var(--bg);border-radius:var(--r-sm);font-weight:600;transition:top .3s}
 .skip-link:focus{top:1rem}
 
-/* ── Lenis ──────────────────────────────────── */
-.lenis.lenis-smooth{scroll-behavior:auto}
-.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
-
 /* ── Wrap ────────────────────────────────────── */
 .wrap{width:var(--wrap);max-width:90rem;margin-inline:auto;padding-inline:1rem}
 
@@ -113,7 +109,7 @@ em{font-family:'Source Serif',Georgia,serif;font-style:italic;color:var(--accent
 /* ── Hero ────────────────────────────────────── */
 .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding-top:5rem;padding-bottom:2rem}
 
-.hero__canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.hero__canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
 
 .hero__grid{position:relative;z-index:2;display:grid;gap:2.5rem;align-items:center}
 .hero__copy{max-width:38rem}
