@@ -6,7 +6,9 @@
   if (typeof THREE === 'undefined' || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
   gsap.registerPlugin(ScrollTrigger);
 
-  /* ── No Lenis — native scroll + GSAP ScrollTrigger ── */
+  /* ── Mark all .reveal elements visible so GSAP controls their animation ── */
+  var reveals = document.querySelectorAll('.reveal');
+  reveals.forEach(function (el) { el.classList.add('is-visible'); });
 
   /* ── Three.js hero scene ───────────────────── */
   var canvas = document.getElementById('hero-gl');
